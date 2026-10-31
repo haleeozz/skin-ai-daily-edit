@@ -1,0 +1,75 @@
+import { chromium, expect } from '@playwright/test';
+import { mkdir } from 'node:fs/promises';
+
+const base = process.env.APP_URL || 'http://127.0.0.1:3000';
+await mkdir('qa', { recursive: true });
+const browser = await chromium.launch({ channel: 'chrome', headless: true });
+const failures = [];
+try {
+  const context = await browser.newContext({ viewport: { width: 1440, height: 1000 }, deviceScaleFactor: 1 });
+  const page = await context.newPage();
+  page.on('pageerror', e => failures.push(e.message));
+  await page.goto(base, { waitUntil: 'networkidle' });
+  await expect(page.getByRole('heading', { name: /Less guesswork/ })).toBeVisible();
+  await page.screenshot({ path: 'qa/desktop-home.png', fullPage: true });
+  await page.getByRole('button', { name: 'Explore an example' }).click();
+  await expect(page.getByRole('heading', { name: 'Your daily edit.' })).toBeVisible();
+  await expect(page.getByText(/Fictional portrait and authored scores, not live results/)).toBeVisible();
+  await expect(page.locator('.product-step')).toHaveCount(3);
+  await page.screenshot({ path: 'qa/desktop-results.png', fullPage: true });
+  await page.getByRole('tab', { name: /Evening/ }).click();
+  await expect(page.locator('.product-step')).toHaveCount(2);
+  await page.getByRole('button', { name: 'Edit answers' }).click();
+  await page.getByRole('textbox', { name: /Any ingredients/ }).fill('a mystery ingredient');
+  await page.getByRole('button', { name: 'Update my routine' }).click();
+  await expect(page.getByRole('heading', { name: 'Your daily edit.' })).toBeVisible();
+  await expect(page.locator('.product-card')).toHaveCount(0);
+  await expect(page.locator('.category-fallback')).toHaveCount(2);
+  await page.getByRole('button', { name: 'Clear session & start again' }).click();
+  await expect(page.getByRole('heading', { name: /Less guesswork/ })).toBeVisible();
+  await page.getByRole('button', { name: 'Find my routine' }).click();
+  await page.getByRole('button', { name: 'Continue to photo' }).click();
+  await page.setInputFiles('#photo-input', { name: 'invalid.txt', mimeType: 'text/plain', buffer: Buffer.from('not a photo') });
+  await expect(page.locator('.error-bar')).toContainText('Choose a JPEG');
+  await page.getByRole('button', { name: 'Dismiss message' }).click();
+  await page.getByRole('button', { name: 'Use the fictional demo photo' }).click();
+  await expect(page.getByAltText('Your selected photo, not yet submitted')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Understand my skin' })).toBeDisabled();
+  await page.screenshot({ path: 'qa/desktop-upload.png', fullPage: true });
+  await page.getByRole('button', { name: 'Photo privacy', exact: true }).last().click();
+  await expect(page.getByRole('dialog')).toBeVisible();
+  await page.keyboard.press('Escape');
+  await expect(page.getByRole('dialog')).toHaveCount(0);
+  // Regression for a terminal provider error. All analysis calls in this block
+  // are browser fixtures and cannot reach YouCam or consume units.
+  let mockedSubmissions = 0;
+  await page.route('**/api/session', route => route.fulfill({ json: { liveEnabled: true } }));
+  await page.evaluate(() => window.dispatchEvent(new Event('focus')));
+  await page.route('**/api/analysis', route => { mockedSubmissions++; return route.fulfill({ json: { status: 'running' } }); });
+  await page.route('**/api/analysis/status', route => route.fulfill({ status: 422, json: { error: 'Keep one face fully visible, looking forward, and fill more of the frame.' } }));
+  await page.getByRole('checkbox', { name: /I’m 18 or older/ }).check();
+  await page.getByRole('checkbox', { name: /I agree to send this photo/ }).check();
+  await page.getByRole('button', { name: 'Understand my skin' }).click();
+  await expect(page.locator('.error-bar')).toContainText('fill more of the frame');
+  await expect(page.getByRole('button', { name: 'Change selected photo' })).toBeVisible();
+  await expect(page.getByRole('checkbox', { name: /I agree to send this photo/ })).not.toBeChecked();
+  expect(mockedSubmissions).toBe(1);
+  console.log('PASS terminal-error regression: returns to photo, shows guidance, renews consent, no automatic resubmission');
+  console.log('PASS desktop: example, AM/PM, restriction fallback, reset, upload validation, preview, consent gate, privacy dialog');
+
+  const phone = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, deviceScaleFactor: 1 });
+  const mobile = await phone.newPage();
+  mobile.on('pageerror', e => failures.push(e.message));
+  await mobile.goto(base, { waitUntil: 'networkidle' });
+  await expect(mobile.getByRole('heading', { name: /Less guesswork/ })).toBeVisible();
+  expect(await mobile.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await mobile.screenshot({ path: 'qa/mobile-home.png', fullPage: true });
+  await mobile.getByRole('button', { name: 'Explore an example' }).click();
+  await expect(mobile.getByRole('heading', { name: 'Your daily edit.' })).toBeVisible();
+  expect(await mobile.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await mobile.screenshot({ path: 'qa/mobile-results.png', fullPage: true });
+  console.log('PASS mobile: home/results rendering and no horizontal overflow at 390px');
+  expect(failures).toEqual([]);
+  console.log('PASS no browser runtime errors; no live YouCam task was submitted');
+  await context.close(); await phone.close();
+} finally { await browser.close(); }

@@ -1,0 +1,9 @@
+.git/
+.next/
+node_modules/
+.env*
+qa/
+data-research/
+submission/video/
+*.log
+*.tsbuildinfo

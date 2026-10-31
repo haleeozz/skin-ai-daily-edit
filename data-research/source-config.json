@@ -1,0 +1,758 @@
+{
+  "schema_version": "0.1.0",
+  "market": "US reference pages",
+  "seeds": [
+    {
+      "id": "cv-foaming",
+      "brand": "CeraVe",
+      "name": "Foaming Facial Cleanser",
+      "category": "cleanser",
+      "url": "https://www.cerave.com/skincare/cleansers/foaming-facial-cleanser",
+      "discovery": false
+    },
+    {
+      "id": "cv-cream-foam",
+      "brand": "CeraVe",
+      "name": "Hydrating Cream-to-Foam Cleanser",
+      "category": "cleanser",
+      "url": "https://www.cerave.com/skincare/cleansers/hydrating-cream-to-foam-cleanser",
+      "discovery": false
+    },
+    {
+      "id": "lrp-foaming",
+      "brand": "La Roche-Posay",
+      "name": "Toleriane Purifying Foaming Face Wash",
+      "category": "cleanser",
+      "url": "https://www.laroche-posay.us/our-products/face/face-wash/toleriane-purifying-foaming-face-wash-3337875545822.html",
+      "discovery": false
+    },
+    {
+      "id": "lrp-gentle",
+      "brand": "La Roche-Posay",
+      "name": "Toleriane Hydrating Gentle Facial Cleanser",
+      "category": "cleanser",
+      "url": "https://www.laroche-posay.us/our-products/face/face-wash/toleriane-hydrating-gentle-facial-cleanser-tolerianehydratinggentlefacialcleanser.html",
+      "discovery": false
+    },
+    {
+      "id": "cv-hydrating",
+      "brand": "CeraVe",
+      "name": "Hydrating Facial Cleanser",
+      "category": "cleanser",
+      "url": "https://www.cerave.com/skincare/cleansers/hydrating-facial-cleanser",
+      "discovery": false
+    },
+    {
+      "id": "cv-oil",
+      "brand": "CeraVe",
+      "name": "Hydrating Foaming Oil Cleanser",
+      "category": "cleanser",
+      "url": "https://www.cerave.com/skincare/cleansers/facial-cleansers/hydrating-foaming-oil-cleanser",
+      "discovery": false
+    },
+    {
+      "id": "cv-lotion",
+      "brand": "CeraVe",
+      "name": "Daily Moisturizing Lotion",
+      "category": "moisturizer",
+      "url": "https://www.cerave.com/skincare/moisturizers/daily-moisturizing-lotion",
+      "discovery": false
+    },
+    {
+      "id": "cv-cream",
+      "brand": "CeraVe",
+      "name": "Moisturizing Cream",
+      "category": "moisturizer",
+      "url": "https://www.cerave.com/skincare/moisturizers/moisturizing-cream",
+      "discovery": false
+    },
+    {
+      "id": "cv-pm",
+      "brand": "CeraVe",
+      "name": "PM Facial Moisturizing Lotion",
+      "category": "moisturizer",
+      "url": "https://www.cerave.com/skincare/moisturizers/pm-facial-moisturizing-lotion",
+      "discovery": false
+    },
+    {
+      "id": "cv-gel",
+      "brand": "CeraVe",
+      "name": "Ultra-Light Moisturizing Gel",
+      "category": "moisturizer",
+      "url": "https://www.cerave.com/skincare/moisturizers/facial-moisturizers/ultra-light-moisturizing-gel",
+      "discovery": false
+    },
+    {
+      "id": "lrp-double",
+      "brand": "La Roche-Posay",
+      "name": "Toleriane Double Repair Face Moisturizer",
+      "category": "moisturizer",
+      "url": "https://www.laroche-posay.us/our-products/face/face-moisturizer/toleriane-double-repair-face-moisturizer-3337875545792.html",
+      "discovery": false
+    },
+    {
+      "id": "cv-oil-control",
+      "brand": "CeraVe",
+      "name": "Oil Control Moisturizing Gel-Cream",
+      "category": "moisturizer",
+      "url": "https://www.cerave.com/skincare/moisturizers/facial-moisturizers/oil-control-moisturizing-gel-cream",
+      "discovery": false
+    },
+    {
+      "id": "cv-mineral50",
+      "brand": "CeraVe",
+      "name": "Hydrating Mineral Sunscreen Face Lotion SPF 50",
+      "category": "sunscreen",
+      "url": "https://www.cerave.com/sunscreen/face/hydrating-mineral-sunscreen-face-lotion-spf-50",
+      "discovery": false
+    },
+    {
+      "id": "cv-sheer30",
+      "brand": "CeraVe",
+      "name": "Hydrating Sheer Sunscreen SPF 30 for Face & Body",
+      "category": "sunscreen",
+      "url": "https://www.cerave.com/sunscreen/hydrating-sheer-sunscreen-broad-spectrum-spf-30-for-face-and-body",
+      "discovery": false
+    },
+    {
+      "id": "cv-mineral30",
+      "brand": "CeraVe",
+      "name": "Hydrating Mineral Sunscreen Face Lotion SPF 30",
+      "category": "sunscreen",
+      "url": "https://www.cerave.com/sunscreen/face/hydrating-sunscreen-face-lotion-spf-30",
+      "discovery": false
+    },
+    {
+      "id": "cv-ultralight30",
+      "brand": "CeraVe",
+      "name": "Ultra-Light Moisturizing Lotion SPF 30",
+      "category": "sunscreen",
+      "url": "https://www.cerave.com/skincare/moisturizers/ultra-light-moisturizing-lotion-spf-30",
+      "discovery": false
+    },
+    {
+      "id": "cv-am30",
+      "brand": "CeraVe",
+      "name": "AM Facial Moisturizing Lotion SPF 30",
+      "category": "sunscreen",
+      "url": "https://www.cerave.com/skincare/moisturizers/am-facial-moisturizing-lotion-with-sunscreen",
+      "discovery": false
+    },
+    {
+      "id": "cv-invisible50",
+      "brand": "CeraVe",
+      "name": "Invisible Mineral Sunscreen SPF 50 Face",
+      "category": "sunscreen",
+      "url": "https://www.cerave.com/en-us/sunscreen/invisible-mineral-sunscreen",
+      "discovery": false
+    },
+    {
+      "id": "discovery-1",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/facial-cleansers",
+      "discovery": true
+    },
+    {
+      "id": "discovery-3",
+      "brand": "The Ordinary",
+      "name": "",
+      "category": "",
+      "url": "https://theordinary.com/en-us/category/skincare/cleansers",
+      "discovery": true
+    },
+    {
+      "id": "discovery-0",
+      "brand": "Vanicream",
+      "name": "",
+      "category": "",
+      "url": "https://www.vanicream.com/face-products",
+      "discovery": true
+    },
+    {
+      "id": "discovery-5",
+      "brand": "La Roche-Posay",
+      "name": "",
+      "category": "",
+      "url": "https://www.laroche-posay.us/our-products/face/face-moisturizer",
+      "discovery": true
+    },
+    {
+      "id": "discovery-4",
+      "brand": "The Ordinary",
+      "name": "",
+      "category": "",
+      "url": "https://theordinary.com/en-us/category/skincare/moisturizers",
+      "discovery": true
+    },
+    {
+      "id": "discovery-2",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/face-moisturizers",
+      "discovery": true
+    },
+    {
+      "id": "cetaphil-90b1e32dd4",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/serums/advanced-daily-defense-serum/302990853407.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-09f6af2e3a",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/serums/repair-and-renew-serum/302990853391.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-6bae7330e2",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/skin-activator-hydrating-and-firming-lotion/302990531589.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-fdef29c81a",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/body/skin-activator-hydrating-and-firming-cream/302990530711.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-03a1c9abd4",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/facial-cleansers/nourishing-oil-to-foam-cleanser/302990532371.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-beb01b802a",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/skin-concern/acne-and-blemishes/fast-rescue-pimple-patch/302993940111.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-a48a35549b",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-cleansers/cetaphil-gentle-skin-cleanser/302990110227.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-a920204cc0",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/facial-moisturizers/tinted-daily-facial-moisturizer-spf-50/302994147007.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-62409941d4",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/facial/cetaphil-daily-facial-cleanser-fragrance-free/302993927402.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-aed9d31734",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-cleansers/cetaphil-daily-facial-cleanser/302993927341.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-c755aeefb2",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-cleansers/gentle-foaming-cleanser/302993889175.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-128b509c7d",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-cleansers/extra-gentle-daily-scrub/302993889182.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-2377d1f1bd",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-cleansers/gentle-skin-cleansing-cloths/302993934059.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-2a792a06cc",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-cleansers/gentle-makeup-removing-wipes/302993889250.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-a1e55fa7e7",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-cleansers/hydrating-foaming-cream-cleanser/302990117097.html",
+      "discovery": false
+    },
+    {
+      "id": "vanicream-5de2749297",
+      "brand": "Vanicream",
+      "name": "",
+      "category": "",
+      "url": "https://www.vanicream.com/product/vanicream-facial-cleanser",
+      "discovery": false
+    },
+    {
+      "id": "vanicream-612ce67ac6",
+      "brand": "Vanicream",
+      "name": "",
+      "category": "",
+      "url": "https://www.vanicream.com/product/vitamin-c-serum",
+      "discovery": false
+    },
+    {
+      "id": "vanicream-706d38c05c",
+      "brand": "Vanicream",
+      "name": "",
+      "category": "",
+      "url": "https://www.vanicream.com/product/vanicream-daily-facial-moisturizer",
+      "discovery": false
+    },
+    {
+      "id": "vanicream-d0c10baa24",
+      "brand": "Vanicream",
+      "name": "",
+      "category": "",
+      "url": "https://www.vanicream.com/product/vanicream-zinc-bar",
+      "discovery": false
+    },
+    {
+      "id": "vanicream-6a365bb7d1",
+      "brand": "Vanicream",
+      "name": "",
+      "category": "",
+      "url": "https://www.vanicream.com/product/facial-moisturizer-with-spf",
+      "discovery": false
+    },
+    {
+      "id": "vanicream-9bca9ed039",
+      "brand": "Vanicream",
+      "name": "",
+      "category": "",
+      "url": "https://www.vanicream.com/product/vanicream-cleansing-bar",
+      "discovery": false
+    },
+    {
+      "id": "vanicream-30ece3f2e4",
+      "brand": "Vanicream",
+      "name": "",
+      "category": "",
+      "url": "https://www.vanicream.com/product/vanicream-moisturizing-ointment",
+      "discovery": false
+    },
+    {
+      "id": "vanicream-396c107d46",
+      "brand": "Vanicream",
+      "name": "",
+      "category": "",
+      "url": "https://www.vanicream.com/product/vanicream-moisturizing-lotion",
+      "discovery": false
+    },
+    {
+      "id": "vanicream-65c6157e92",
+      "brand": "Vanicream",
+      "name": "",
+      "category": "",
+      "url": "https://www.vanicream.com/product/vanicream-moisturizing-cream",
+      "discovery": false
+    },
+    {
+      "id": "theordinary-fbae22064d",
+      "brand": "The Ordinary",
+      "name": "",
+      "category": "",
+      "url": "https://theordinary.com/en-us/natural-moisturizing-factors-beta-glucan-moisturizer-100612.html",
+      "discovery": false
+    },
+    {
+      "id": "theordinary-fd415ad81b",
+      "brand": "The Ordinary",
+      "name": "",
+      "category": "",
+      "url": "https://theordinary.com/en-us/natural-moisturizing-factors-ha-moisturizer-100435.html",
+      "discovery": false
+    },
+    {
+      "id": "theordinary-b2c84945b3",
+      "brand": "The Ordinary",
+      "name": "",
+      "category": "",
+      "url": "https://theordinary.com/en-us/rice-lipids-ectoin-microemulsion-moisturizer-100739.html",
+      "discovery": false
+    },
+    {
+      "id": "theordinary-e30aabcf56",
+      "brand": "The Ordinary",
+      "name": "",
+      "category": "",
+      "url": "https://theordinary.com/en-us/natural-moisturizing-factors-phytoceramides-moisturizer-100610.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-5ea7d4a517",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/moisturizing-cream/302993917564.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-1eccb8d7f3",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/advanced-radiance-lotion/302993914280.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-a94be9f95d",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/body-moisturizers/moisturizing-lotion/302990241334.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-81c3300132",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/sunscreens/sheer-mineral*-sunscreen-face-drops-spf-50/302994110001.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-8a457eebb1",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/facial-moisturizers",
+      "discovery": true
+    },
+    {
+      "id": "cetaphil-954afe2e4f",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/sunscreens",
+      "discovery": true
+    },
+    {
+      "id": "cetaphil-7b51ef7a57",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/daily-facial-moisturizer-spf-15/302993928041.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-de63055e94",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/daily-hydrating-lotion/302993889038.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-354c695708",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/daily-facial-moisturizer-spf-35/302994113002.html",
+      "discovery": false
+    },
+    {
+      "id": "theordinary-f0fbe0d1e5",
+      "brand": "The Ordinary",
+      "name": "",
+      "category": "",
+      "url": "https://theordinary.com/en-us/category/skincare/cleansers-exfoliators",
+      "discovery": true
+    },
+    {
+      "id": "cetaphil-95391d6d7b",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/deep-hydration-hydrating-glow-daily-cream/302990117011.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-0116e8622d",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/skin-concern/healthy-aging/healthy-renew-night-cream/302990260014.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-ad8bae916b",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/dermacontrol-oil-absorbing-moisturizer-spf-30/302994313044.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-95d34bbb51",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/daily-facial-moisturizer-spf-50/302993930020.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-fd62f8fd5b",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/rich-hydrating-cream/302993889021.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-ccd8a9eddd",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/sunscreens/sheer-mineral*-sunscreen-lotion-spf-50/302994122004.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-84d5c7afc6",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/sunscreens/sheer-mineral*-sunscreen-stick-spf-50/302994108008.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-dfbcbd8bca",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/gentle-clear-mattifying-acne-moisturizer/302994117000.html",
+      "discovery": false
+    },
+    {
+      "id": "cetaphil-3f96fedb5b",
+      "brand": "Cetaphil",
+      "name": "",
+      "category": "",
+      "url": "https://www.cetaphil.com/us/products/product-categories/sunscreens/everyday-sunscreen-tinted-face-lotion-spf-40/302994145003.html",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-48360c914f",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/face-care",
+      "discovery": true
+    },
+    {
+      "id": "eucerin-0f98895501",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/radiant-tone/dual-serum",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-7a0aeae884",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/radiant-tone/eye-cream-",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-3ac49c3f56",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/radiant-tone/daily-lotion-spf-30",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-249237db0f",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/sun-protection",
+      "discovery": true
+    },
+    {
+      "id": "eucerin-271d99a1e7",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/radiant-tone/night-cream",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-22125a9eba",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/immersive-hydration/immersive-hydration-gel-cream",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-d99e4d438a",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/radiant-tone/cleansing-gel",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-8e74e2b6ee",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/gentle-cleansing/gentle-cleansing-hydrating-cleansing-gel",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-81ffe34fc0",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/immersive-hydration/immersive-hydration-moisture-boost-serum",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-5287c19d21",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/gentle-cleansing/hydrating-cleansing-gel",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-a20277b49d",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/q10-active/eucerin-q10-anti-wrinkle-sensitive-skin-creme",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-58aae1a9be",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/q10-active/q10-wrinkle",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-c243292863",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/sun-protection/tinted-age-defense-spf-50-face-sunscreen",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-32076f6f8a",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/sun-protection/advanced-hydration-spf-30-sunscreen-spray",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-63d4e57298",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/sun-protection/advanced-hydration-ultra-light-spf-50-face-sunscreen",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-5fb9219bdd",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/sun-protection/advanced-hydration-spf-50-sunscreen-spray",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-9a404d7cb9",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/sun-protection/advanced-hydration-sunscreen-50",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-dd990e93e4",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/sun-protection/clear-skin-spf-50-face-sunscreen",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-3ab03bdd07",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/sun-protection/age-defense-face-sunscreen",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-ad81842787",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/sun-protection/sensitive-mineral-spf-50-sunscreen-",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-94dd7459af",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/sun-protection/after-sun",
+      "discovery": false
+    },
+    {
+      "id": "eucerin-a852b13d6d",
+      "brand": "Eucerin",
+      "name": "",
+      "category": "",
+      "url": "https://www.eucerinus.com/products/sun-protection/tinted-mineral-lotion",
+      "discovery": false
+    }
+  ]
+}

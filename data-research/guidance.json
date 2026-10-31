@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.1.0",
+  "status": "limited_baseline_rules_integrated_not_clinically_validated",
+  "reviewed_on": "2026-10-31",
+  "sources": [
+    {"id":"aad-basic","publisher":"American Academy of Dermatology","title":"Skin care on a budget","url":"https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-budget"},
+    {"id":"aad-moisturizer","publisher":"American Academy of Dermatology","title":"How to pick the right moisturizer for your skin","url":"https://www.aad.org/public/everyday-care/skin-care-basics/dry/pick-moisturizer"},
+    {"id":"aad-oily","publisher":"American Academy of Dermatology","title":"How to control oily skin","url":"https://www.aad.org/public/everyday-care/skin-care-basics/dry/oily-skin"},
+    {"id":"aad-testing","publisher":"American Academy of Dermatology","title":"How to test skin care products","url":"https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products"},
+    {"id":"aad-sun","publisher":"American Academy of Dermatology","title":"Sunscreen FAQs","url":"https://www.aad.org/media/stats-sunscreen"},
+    {"id":"fda-sun","publisher":"US Food and Drug Administration","title":"Sunscreen: How to Help Protect Your Skin from the Sun","url":"https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun"},
+    {"id":"youcam-score","publisher":"Perfect Corp.","title":"AI Skin Analysis — score definitions","url":"https://docs.perfectcorp.com/reference/ai_skin_analysis"}
+  ],
+  "selection_principles": [
+    {"id":"basic-routine","source_ids":["aad-basic"],"supported_statement":"A basic routine can consist of cleansing, moisturizing and sun protection.","scope":"General routine structure; does not validate a particular brand or formula."},
+    {"id":"dry-texture","source_ids":["aad-moisturizer"],"supported_statement":"For self-reported dry skin, a cream can be a more suitable starting texture than a lightweight lotion.","scope":"Texture guidance, not a conclusion from a photo hydration score."},
+    {"id":"oily-labels","source_ids":["aad-oily"],"supported_statement":"For oily skin, consider gentle cleansing and products labelled oil-free and non-comedogenic; harsh cleansing can irritate.","scope":"Requires explicit product-label evidence. These labels do not guarantee individual tolerance."},
+    {"id":"sensitive-fragrance","source_ids":["aad-testing"],"supported_statement":"Fragrance-free and unscented are different claims; masking fragrance and botanical ingredients still require attention.","scope":"No allergy-free guarantee can be derived from a missing fragrance keyword."},
+    {"id":"sunscreen-baseline","source_ids":["aad-sun","fda-sun"],"supported_statement":"The AAD recommends broad-spectrum SPF 30 or higher and water resistance. FDA guidance describes US label and reapplication information.","scope":"SPF alone is not evidence of broad-spectrum protection or water resistance; retain each label field separately. FDA and AAD thresholds must not be misrepresented as identical."},
+    {"id":"product-testing","source_ids":["aad-testing"],"supported_statement":"AAD consumer guidance describes trying a new product on a small area before wider use, following normal contact time.","scope":"This is not diagnostic allergy patch testing or proof of long-term safety."},
+    {"id":"score-boundary","source_ids":["youcam-score"],"supported_statement":"The provider distinguishes raw scores from adjusted presentation scores.","scope":"No source here establishes a clinical cutoff or a validated score-to-brand mapping. Do not assign skin type, disease, treatment or ingredient concentration from these scores."}
+  ],
+  "engineering_exclusions_not_clinical_rules": [
+    {"id":"unknown-formula","policy":"Do not certify ingredient avoidance without a complete exact-variant list and current package check."},
+    {"id":"medicated-products","policy":"Keep OTC drug-actives, exfoliating treatments and retinoids outside the baseline suggestion pool pending a separate review."},
+    {"id":"prescribed-treatment","policy":"Do not modify a prescribed treatment or assert compatibility when the medication is unknown."},
+    {"id":"regional-formula","policy":"Do not substitute a US ingredient list for a Turkish or other market variant."},
+    {"id":"unreviewed-record","policy":"Machine extraction is not human approval or independent clinical validation."}
+  ]
+}

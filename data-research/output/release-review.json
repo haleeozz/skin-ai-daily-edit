@@ -1,0 +1,793 @@
+{
+  "version": "2026-10-31.2",
+  "sourceRecords": 80,
+  "releasedCount": 30,
+  "review": "Technical checks against cached official manufacturer labels; no independent efficacy, allergy-safety or clinical review.",
+  "decisions": [
+    {
+      "id": "cv-am30",
+      "source_sha256": "d0f96eb33ff74e2d3623afc6d69f4c1f447e481a3415816fef3d7b7b3ff3d831",
+      "decision": "withheld",
+      "reasons": [
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cv-lotion",
+      "source_sha256": "b62bf5bc34f19baea665a7b6bf7cf1c7fe170abb515060840218c8d2d77fd2f6",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cv-foaming",
+      "source_sha256": "057b10f18b616ddf0f3fb564e74114db4e4f4b6ceb037c52d87ddb1c34319182",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cv-cream-foam",
+      "source_sha256": "604e474d1f9251d08a34b4979e0175d771f2e66d3262064ae72717c010d15abf",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cv-hydrating",
+      "source_sha256": "9bbdf74f64ee79bf43f702105d16ea5da850020ea833e1e214c9dfe0611e4ac5",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cv-oil",
+      "source_sha256": "ae8b044906f159125b97beee54d36c82cdc65ee5adbeb3861a2e73e6a0f662ce",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cv-mineral30",
+      "source_sha256": "1d59e3321a05a5fd52a1c77792035e5e91f7f830db1483d19e21ab400a618487",
+      "decision": "withheld",
+      "reasons": [
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cv-mineral50",
+      "source_sha256": "a28fbd898e9ff43c663ac49319d0635fbd6ae32c2b322b8e6d96d43ccb8ea340",
+      "decision": "withheld",
+      "reasons": [
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cv-sheer30",
+      "source_sha256": "8959b5469eed8a1ac0725755da03f12ea10e2822246a2a0ca8c1bfb843ddc66a",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cv-invisible50",
+      "source_sha256": "5497fd2d8f152256a4a3f1419ed73d03924836b13a2da45db1e4ff14f65ca9ae",
+      "decision": "withheld",
+      "reasons": [
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cv-cream",
+      "source_sha256": "b084472c617dc953967f44fd7906bff431ef02c92e3dd1e23a1334836fcc09c8",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cv-oil-control",
+      "source_sha256": "76d960788db23f3567495aa9d39ae70368f304b9292221ac94f2d923d643521b",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cv-pm",
+      "source_sha256": "091c747342df804b67fc3f0e02664fc4136f8a8be7a5931c44a10fffddde227e",
+      "decision": "withheld",
+      "reasons": [
+        "pm_only_not_in_shared_am_pm_catalogue"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cv-gel",
+      "source_sha256": "b7b790783591d83bf247ed2e8b7a4f5ea06f8e60b9e61519c623579cf0304e48",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cv-ultralight30",
+      "source_sha256": "64d5b326b01492dc8e9120260531138e58ba4a53ae0a4d2a8fb8c456aa376909",
+      "decision": "withheld",
+      "reasons": [
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-90b1e32dd4",
+      "source_sha256": "5dc1559b28ae2522ba10a66627873f8cfbc172cd845075bef987bca55ed47759",
+      "decision": "withheld",
+      "reasons": [
+        "outside_basic_routine_category",
+        "outside_three_essential_categories"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-1eccb8d7f3",
+      "source_sha256": "4ac9b1c9f9868374a082de895b5b82ea2f89f2ab84f08ce2a9aa3866a324136f",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-aed9d31734",
+      "source_sha256": "89cd31229a9062796c36b7e2b4eed478b3688e6c4f30752d3c24bc403d4d61de",
+      "decision": "withheld",
+      "reasons": [
+        "fragrance_free_claim_conflicts_with_ingredient_tokens"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-62409941d4",
+      "source_sha256": "75c0dc4fd0e9d7d980e0ff39c0b07a789e2d60e87efae93eee2d3633f58fc86f",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-a48a35549b",
+      "source_sha256": "435bb19b8de21d80de538cc5426b432907415fdfcd0b37cb00bfe200adaa4686",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-7b51ef7a57",
+      "source_sha256": "5f4e07021c03d256baab538093c4f46a8c8aee650a50407e16702e375a51d9c8",
+      "decision": "withheld",
+      "reasons": [
+        "spf_below_30_baseline",
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-354c695708",
+      "source_sha256": "bf56559b50b3667a118c48eed689eeb68189bb359d18957b21753f709a9af654",
+      "decision": "withheld",
+      "reasons": [
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-95d34bbb51",
+      "source_sha256": "3064f6282c8879b57ab736946958cf94b0e8d503ce58d93cf56a026d8297aa2d",
+      "decision": "withheld",
+      "reasons": [
+        "broad_spectrum_label_not_captured",
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-de63055e94",
+      "source_sha256": "5f9674bf423bff88c5af3117ba48867e0555d2020db94d205758ba170f44c567",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-95391d6d7b",
+      "source_sha256": "061baa88befba0b1921ae21889196e5e56370406270d55856f40faf1397556a1",
+      "decision": "withheld",
+      "reasons": [
+        "no_explicit_supported_skin_type_label"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-ad8bae916b",
+      "source_sha256": "a04270a672f488fd58d90b56444b15a4287d4e583b876f11a18e8f73e9025f6f",
+      "decision": "withheld",
+      "reasons": [
+        "broad_spectrum_label_not_captured",
+        "facial_use_not_confirmed_from_selected_product_section",
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-3f96fedb5b",
+      "source_sha256": "1e6105993891bb981843453243da024d3a803a5e71aa4fb8c7d1b7fae9a49758",
+      "decision": "withheld",
+      "reasons": [
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-128b509c7d",
+      "source_sha256": "c36b8c50ae0be9dd36fdcd7b85c020b85f737c880a8ca3641adc014bd860fff9",
+      "decision": "withheld",
+      "reasons": [
+        "active_treatment_or_exfoliant_requires_separate_review",
+        "facial_use_not_confirmed_from_selected_product_section",
+        "outside_basic_routine_category",
+        "outside_three_essential_categories"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-beb01b802a",
+      "source_sha256": "c12d67a3b6a0027bb3ff31ab7595671d563f602e458309e23cc25c8a87b1bf26",
+      "decision": "withheld",
+      "reasons": [
+        "active_treatment_or_exfoliant_requires_separate_review",
+        "facial_use_not_confirmed_from_selected_product_section",
+        "outside_basic_routine_category",
+        "outside_three_essential_categories"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-dfbcbd8bca",
+      "source_sha256": "270ecf271a95bffe969c50b31071e20d2af1130f5b542d922be2c6e9494522a8",
+      "decision": "withheld",
+      "reasons": [
+        "active_treatment_or_exfoliant_requires_separate_review",
+        "facial_use_not_confirmed_from_selected_product_section",
+        "no_explicit_supported_skin_type_label"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-c755aeefb2",
+      "source_sha256": "8e5d46890f6c8890370e9e7a3aabd5abfa516dd2f02e5eae47618bb111785eaf",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-2a792a06cc",
+      "source_sha256": "445a09c540611baa83c6fc55125598b7178896ae1c76fd0344acaa9d465514b4",
+      "decision": "withheld",
+      "reasons": [
+        "no_explicit_supported_skin_type_label",
+        "outside_basic_routine_category",
+        "outside_three_essential_categories"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-2377d1f1bd",
+      "source_sha256": "df94dce4c6f5513e322964d789594d79ea46a61c27e31c16f972154e3e798211",
+      "decision": "withheld",
+      "reasons": [
+        "no_explicit_supported_skin_type_label",
+        "outside_basic_routine_category",
+        "outside_three_essential_categories"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-0116e8622d",
+      "source_sha256": "1f811d6a83b380d0e2e8b974bedafe178e2a7694631e6eeb005f19bc0a4eee2c",
+      "decision": "withheld",
+      "reasons": [
+        "facial_use_not_confirmed_from_selected_product_section"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-a1e55fa7e7",
+      "source_sha256": "1590a217a5aca588c561257bafcfd43f2a87086bd403de18118fbf2f46eab9ea",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-5ea7d4a517",
+      "source_sha256": "3048177a4123a5fd4294b6310aa10e0d1fd517b7cea1c582883f398a0fdcdc99",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-a94be9f95d",
+      "source_sha256": "621295ec2b87c4e17c94333a6d705beace5749779b36611dcddd15b8f13d578a",
+      "decision": "withheld",
+      "reasons": [
+        "facial_use_not_confirmed_from_selected_product_section"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-03a1c9abd4",
+      "source_sha256": "36d46696965df0c951ee6ca43ff1bacdd3c967e997210d80d4d320a179d248a7",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-09f6af2e3a",
+      "source_sha256": "45381a4584b183c78cf255e298ad427b6c506eed1d329d12571b8befc41517fc",
+      "decision": "withheld",
+      "reasons": [
+        "outside_basic_routine_category",
+        "outside_three_essential_categories"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-fd62f8fd5b",
+      "source_sha256": "32c25d69893437efd9c59e7a9f86d2be4eb75bd376cca36b55aa58a2b7449f1c",
+      "decision": "withheld",
+      "reasons": [
+        "pm_only_not_in_shared_am_pm_catalogue"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-81c3300132",
+      "source_sha256": "9c79ff32c7a1dea3e9b6dc556e749e0c68055110a42b6b9dba1da1872496bc09",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-ccd8a9eddd",
+      "source_sha256": "8d00c63874faedc97a00ea01b6698f3ac580404161ac155cb09ba094d79d808e",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-84d5c7afc6",
+      "source_sha256": "f5335812e27f625e2a1a966399fdfb62e36cc5846a06f65b16abc8b4393fab39",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-fdef29c81a",
+      "source_sha256": "37d0eff9368074ba5a82677f9a5d4bb03a65b9d2672d6aef650333f59219fa0d",
+      "decision": "withheld",
+      "reasons": [
+        "facial_use_not_confirmed_from_selected_product_section"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-6bae7330e2",
+      "source_sha256": "969cb492582ad7014b1259647ab38d1658ed48a3be768954c28398c30ba95f25",
+      "decision": "withheld",
+      "reasons": [
+        "facial_use_not_confirmed_from_selected_product_section"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "cetaphil-a920204cc0",
+      "source_sha256": "2a8e9f1b570c65513524b24417cb635378f271af3159732d4c93d7c66d6524b3",
+      "decision": "withheld",
+      "reasons": [
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-9a404d7cb9",
+      "source_sha256": "490e9bb1eab44106de0fe0df412802e4fe6108f6a3b4dd3268302423ddf6b5ce",
+      "decision": "withheld",
+      "reasons": [
+        "facial_use_not_confirmed_from_selected_product_section",
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-5fb9219bdd",
+      "source_sha256": "4d0f0052fc2485547f433510e52fde5d503be637bfb0b9489374e2c215466664",
+      "decision": "withheld",
+      "reasons": [
+        "facial_use_not_confirmed_from_selected_product_section",
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-32076f6f8a",
+      "source_sha256": "8c80fdb3487aaf1e2a00fac8b498a7c1e9d0292b0e6194f18a391ec018eb7226",
+      "decision": "withheld",
+      "reasons": [
+        "facial_use_not_confirmed_from_selected_product_section",
+        "no_explicit_supported_skin_type_label",
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-63d4e57298",
+      "source_sha256": "9b523fd6ae97247a7a89904d43f5b04691bdcc378945bcdb53d2e51d6226f8b4",
+      "decision": "withheld",
+      "reasons": [
+        "no_explicit_supported_skin_type_label",
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-3ab03bdd07",
+      "source_sha256": "b863f91a2fd5d8d4e421cc9dde635f569c0d85b6513289b520fd9d5250ae9676",
+      "decision": "withheld",
+      "reasons": [
+        "no_explicit_supported_skin_type_label",
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-d99e4d438a",
+      "source_sha256": "d3b207c0b6b9571ce59fa6577f6cd3bb12254bbf542bf0c3f8f4ebb8a1bbea8e",
+      "decision": "withheld",
+      "reasons": [
+        "active_treatment_or_exfoliant_requires_separate_review",
+        "facial_use_not_confirmed_from_selected_product_section",
+        "no_explicit_supported_skin_type_label"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-dd990e93e4",
+      "source_sha256": "903c2d73580bbeb17094560ff31ae62431271500434aa2dddaf17e1caf982c1e",
+      "decision": "withheld",
+      "reasons": [
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-3ac49c3f56",
+      "source_sha256": "5ceefba23d90da7f3c30619606fd24c0bc1df3abac2be5873262a2673e2b49b9",
+      "decision": "withheld",
+      "reasons": [
+        "facial_use_not_confirmed_from_selected_product_section",
+        "no_explicit_supported_skin_type_label",
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-0f98895501",
+      "source_sha256": "c79f2b8fbc3cdccfde9845cb84c6d766c12f20777ede64de40bfd09be031c50d",
+      "decision": "withheld",
+      "reasons": [
+        "facial_use_not_confirmed_from_selected_product_section",
+        "no_explicit_supported_skin_type_label",
+        "outside_basic_routine_category",
+        "outside_three_essential_categories"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-58aae1a9be",
+      "source_sha256": "788e87df5d0fd620eeb3e63b33083c1a428a2f11d5d3553e53150a5bb054fb86",
+      "decision": "withheld",
+      "reasons": [
+        "facial_use_not_confirmed_from_selected_product_section",
+        "no_explicit_supported_skin_type_label"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-94dd7459af",
+      "source_sha256": "ad53a48d119e9e5fd0920701c5d0bcde34bd295320f27e45669982aef5bff6ad",
+      "decision": "withheld",
+      "reasons": [
+        "eye_or_after_sun_product_not_general_face_baseline"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-7a0aeae884",
+      "source_sha256": "c5295bd1363e86e673384f0aae6673592cbd6c93aa27728dab8c77dc572363af",
+      "decision": "withheld",
+      "reasons": [
+        "eye_or_after_sun_product_not_general_face_baseline",
+        "facial_use_not_confirmed_from_selected_product_section",
+        "no_explicit_supported_skin_type_label"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-22125a9eba",
+      "source_sha256": "14906b2cf456d8295a33af1a340c8763d6dcef8fd236c3d20784afcb4605d646",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-81ffe34fc0",
+      "source_sha256": "85b77e22788a85c7fa90a97f3a0cda6dd69edf2161c0f07c3ecbad7937791d5a",
+      "decision": "withheld",
+      "reasons": [
+        "outside_basic_routine_category",
+        "outside_three_essential_categories"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-8e74e2b6ee",
+      "source_sha256": "d55688408ae7757c797814a3ae17c2390059376bd866f1c8df3675c7e58da8cf",
+      "decision": "withheld",
+      "reasons": [
+        "facial_use_not_confirmed_from_selected_product_section",
+        "no_explicit_supported_skin_type_label"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-5287c19d21",
+      "source_sha256": "3bcb9cc14505ad93318efc6728f6eb178d07ac9408f3401a707dc1d9b6a11753",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-271d99a1e7",
+      "source_sha256": "3a4d90b02c42e94d3defaf29d29e1716673bfa4e6ed33077da455dacb18f9403",
+      "decision": "withheld",
+      "reasons": [
+        "facial_use_not_confirmed_from_selected_product_section",
+        "no_explicit_supported_skin_type_label"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-a20277b49d",
+      "source_sha256": "7be29a5a8e6a762683ec8838412772b3ecc13ddcf4caaf032b5c03f8e74b78e3",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-ad81842787",
+      "source_sha256": "bc3161921f8423333b9824e4d1b47b948412224e159a7b57bcc0fc57f3b32acb",
+      "decision": "withheld",
+      "reasons": [
+        "facial_use_not_confirmed_from_selected_product_section",
+        "no_explicit_supported_skin_type_label",
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-c243292863",
+      "source_sha256": "c18438a8b32690d8ef563564a823083ed513b3ef7337b4473b0587b0a9ef5748",
+      "decision": "withheld",
+      "reasons": [
+        "no_explicit_supported_skin_type_label",
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "eucerin-a852b13d6d",
+      "source_sha256": "11bee9f9788724b7ff9259ac164e4dd4546e5603271352492ffbe5094e373cba",
+      "decision": "withheld",
+      "reasons": [
+        "no_explicit_supported_skin_type_label",
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "theordinary-fbae22064d",
+      "source_sha256": "aaf768ececcfde9ffb2f65837ffd75eacc1d9f016bfdfcee6d1f2eed626372fb",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "theordinary-fd415ad81b",
+      "source_sha256": "c2060067ba17e7c1c1bc378a3ff92c42f250dc3bb06406ab04c0654aba9b6ee7",
+      "decision": "withheld",
+      "reasons": [
+        "facial_use_not_confirmed_from_selected_product_section"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "theordinary-e30aabcf56",
+      "source_sha256": "131a15665a1d39cc3a4a5dd1864d33dc3e53214d40d8a01543c8d2cad41b770a",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "theordinary-b2c84945b3",
+      "source_sha256": "ea48a83e5d1b1621ae73ea1a909a9ff362ac53f2e21ad2eecf2cf6db7b1838b8",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "vanicream-9bca9ed039",
+      "source_sha256": "fd84fdcf6e738b646416d91943555dc7a7aba5d926dfdcb8dbdd2da37fc10c94",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "vanicream-706d38c05c",
+      "source_sha256": "c795a1f1893f7d0c8575770f44e2447e922556fdd26a457f01f03d8e9af00bed",
+      "decision": "withheld",
+      "reasons": [
+        "no_explicit_supported_skin_type_label"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "vanicream-6a365bb7d1",
+      "source_sha256": "862381fc0e7f0f24b65a0268140a101c9ecdfb5a9617ea3e560118675d0aa41f",
+      "decision": "withheld",
+      "reasons": [
+        "no_explicit_supported_skin_type_label",
+        "water_resistance_duration_not_captured"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "vanicream-5de2749297",
+      "source_sha256": "79bce91488c3a1444b9abafb6a5cb8c000f8eacfd2c348084e470efd9e5b9cad",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "vanicream-65c6157e92",
+      "source_sha256": "e0a7fb4be40c09d541fc813c2d1a8d2970de2342f4a51b6c4cb78f95d26fcb8c",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "vanicream-396c107d46",
+      "source_sha256": "d37043277f0ba70faf1e53449dd800d7364778f392789d812698bbe0ae30391c",
+      "decision": "released_for_limited_label_matching",
+      "reasons": [],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "vanicream-30ece3f2e4",
+      "source_sha256": "d2932c3248f0c02dce7ed982d68f3e63eeea290767169751302b90bf4468e5e5",
+      "decision": "withheld",
+      "reasons": [
+        "no_explicit_supported_skin_type_label"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "vanicream-612ce67ac6",
+      "source_sha256": "ea0d790237aef38fb6e33a9dabcc4f740730d11b219420db5453568226325049",
+      "decision": "withheld",
+      "reasons": [
+        "no_explicit_supported_skin_type_label",
+        "outside_basic_routine_category",
+        "outside_three_essential_categories"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    },
+    {
+      "id": "vanicream-d0c10baa24",
+      "source_sha256": "aa7ce9ece55607108db24fd266c1dcbf66048a3e89d9c55af6bb3cc5a2dcc482",
+      "decision": "withheld",
+      "reasons": [
+        "active_treatment_or_exfoliant_requires_separate_review",
+        "no_explicit_supported_skin_type_label"
+      ],
+      "review_kind": "technical_source_and_scope_checks",
+      "clinical_validation": false
+    }
+  ]
+}

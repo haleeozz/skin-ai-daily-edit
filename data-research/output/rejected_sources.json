@@ -1,0 +1,20 @@
+[
+  {
+    "id": "lrp-foaming",
+    "brand": "La Roche-Posay",
+    "source_url": "https://www.laroche-posay.us/our-products/face/face-wash/toleriane-purifying-foaming-face-wash-3337875545822.html",
+    "reason": "http_403"
+  },
+  {
+    "id": "lrp-gentle",
+    "brand": "La Roche-Posay",
+    "source_url": "https://www.laroche-posay.us/our-products/face/face-wash/toleriane-hydrating-gentle-facial-cleanser-tolerianehydratinggentlefacialcleanser.html",
+    "reason": "http_403"
+  },
+  {
+    "id": "lrp-double",
+    "brand": "La Roche-Posay",
+    "source_url": "https://www.laroche-posay.us/our-products/face/face-moisturizer/toleriane-double-repair-face-moisturizer-3337875545792.html",
+    "reason": "http_403"
+  }
+]

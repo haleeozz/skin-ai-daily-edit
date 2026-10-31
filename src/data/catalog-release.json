@@ -1,0 +1,2232 @@
+{
+  "version": "2026-10-31.2",
+  "sourceRecords": 80,
+  "products": [
+    {
+      "id": "cv-lotion",
+      "brand": "CeraVe",
+      "name": "Daily Moisturizing Lotion",
+      "category": "moisturizer",
+      "texture": "light",
+      "skinTypes": [
+        "dry",
+        "normal"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Normal to Dry Skin",
+        "source_selector": "h1.pdp-heading product header / Made For"
+      },
+      "highlights": [
+        "Labelled oil-free"
+      ],
+      "sensitive": false,
+      "source": "https://www.cerave.com/skincare/moisturizers/daily-moisturizing-lotion",
+      "checked": "2026-10-31",
+      "sourceHash": "b62bf5bc34f19baea665a7b6bf7cf1c7fe170abb515060840218c8d2d77fd2f6",
+      "ingredients": [
+        "AQUA / WATER / EAU",
+        "GLYCERIN",
+        "CAPRYLIC/CAPRIC TRIGLYCERIDE",
+        "CETEARYL ALCOHOL",
+        "CETYL ALCOHOL",
+        "DIMETHICONE",
+        "PHENOXYETHANOL",
+        "POLYSORBATE 20",
+        "CETEARETH-20",
+        "BEHENTRIMONIUM METHOSULFATE",
+        "POLYGLYCERYL-3 DIISOSTEARATE",
+        "SODIUM LAUROYL LACTYLATE",
+        "ETHYLHEXYLGLYCERIN",
+        "POTASSIUM PHOSPHATE",
+        "DISODIUM EDTA",
+        "DIPOTASSIUM PHOSPHATE",
+        "CERAMIDE NP",
+        "CERAMIDE AP",
+        "PHYTOSPHINGOSINE",
+        "CHOLESTEROL",
+        "XANTHAN GUM",
+        "CARBOMER",
+        "SODIUM HYALURONATE",
+        "TOCOPHEROL",
+        "CERAMIDE EOP - (CODE F.I.L D215763/2)"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [
+          "sodium hyaluronate"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetearyl alcohol",
+          "cetyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [
+          "ceramide np",
+          "ceramide ap",
+          "ceramide eop - (code f.i.l d215763/2)"
+        ],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "lightweight",
+        "oil_free"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cv-foaming",
+      "brand": "CeraVe",
+      "name": "Foaming Facial Cleanser",
+      "category": "cleanser",
+      "texture": "light",
+      "skinTypes": [
+        "normal",
+        "oily"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Normal to Oily Skin",
+        "source_selector": "h1.pdp-heading product header / Made For"
+      },
+      "highlights": [],
+      "sensitive": false,
+      "source": "https://www.cerave.com/skincare/cleansers/foaming-facial-cleanser",
+      "checked": "2026-10-31",
+      "sourceHash": "057b10f18b616ddf0f3fb564e74114db4e4f4b6ceb037c52d87ddb1c34319182",
+      "ingredients": [
+        "AQUA / WATER / EAU",
+        "COCAMIDOPROPYL HYDROXYSULTAINE",
+        "GLYCERIN",
+        "SODIUM LAUROYL SARCOSINATE",
+        "PEG-150 PENTAERYTHRITYL TETRASTEARATE",
+        "NIACINAMIDE",
+        "PEG-6 CAPRYLIC/CAPRIC GLYCERIDES",
+        "SODIUM METHYL COCOYL TAURATE",
+        "PROPYLENE GLYCOL",
+        "CERAMIDE NP",
+        "CERAMIDE AP",
+        "CERAMIDE EOP",
+        "CARBOMER",
+        "METHYLPARABEN",
+        "SODIUM CHLORIDE",
+        "SODIUM LAUROYL LACTYLATE",
+        "CHOLESTEROL",
+        "DISODIUM EDTA",
+        "PROPYLPARABEN",
+        "CITRIC ACID",
+        "TETRASODIUM EDTA",
+        "HYDROLYZED HYALURONIC ACID",
+        "PHYTOSPHINGOSINE",
+        "XANTHAN GUM"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [
+          "niacinamide"
+        ],
+        "hyaluronic_acid_family": [
+          "hydrolyzed hyaluronic acid"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [
+          "ceramide np",
+          "ceramide ap",
+          "ceramide eop"
+        ],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "gel_texture",
+        "oily_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cv-cream-foam",
+      "brand": "CeraVe",
+      "name": "Hydrating Cream-to-Foam Cleanser",
+      "category": "cleanser",
+      "texture": "rich",
+      "skinTypes": [
+        "dry",
+        "normal"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Normal to Dry Skin; Including Sensitive Skin",
+        "source_selector": "h1.pdp-heading product header / Made For"
+      },
+      "highlights": [
+        "Labelled fragrance-free",
+        "Labelled non-comedogenic"
+      ],
+      "sensitive": true,
+      "source": "https://www.cerave.com/skincare/cleansers/hydrating-cream-to-foam-cleanser",
+      "checked": "2026-10-31",
+      "sourceHash": "604e474d1f9251d08a34b4979e0175d771f2e66d3262064ae72717c010d15abf",
+      "ingredients": [
+        "Aqua / Water / Eau",
+        "Glycerin",
+        "Sodium Methyl Cocoyl Taurate",
+        "Coco-Betaine",
+        "Sodium Cocoyl Isethionate",
+        "Sodium Chloride",
+        "Pca",
+        "Ppg-5-Ceteth-20",
+        "Peg-100 Stearate",
+        "Peg-150 Pentaerythrityl Tetrastearate",
+        "Peg-6 Caprylic/Capric Glycerides",
+        "Peg-30 Dipolyhydroxystearate",
+        "Ci 77891 / Titanium Dioxide",
+        "Aspartic Acid",
+        "Ceramide Np",
+        "Ceramide Ap",
+        "Ceramide Eop",
+        "Sorbitan Isostearate",
+        "Carbomer",
+        "Glycol Distearate",
+        "Glyceryl Stearate",
+        "Glyceryl Oleate",
+        "Glycine",
+        "Trideceth-6",
+        "Cetearyl Alcohol",
+        "Behentrimonium Methosulfate",
+        "Threonine",
+        "Sodium Hydroxide",
+        "Salicylic Acid",
+        "Sodium Pca",
+        "Sodium Lactate",
+        "Arginine",
+        "Sodium Lauroyl Lactylate",
+        "Serine",
+        "Sodium Benzoate",
+        "Valine",
+        "Sodium Hyaluronate",
+        "Proline",
+        "Isoleucine",
+        "Cholesterol",
+        "Phenoxyethanol",
+        "Alanine",
+        "Phenylalanine",
+        "Coconut Acid",
+        "Coco-Glucoside",
+        "Chlorphenesin",
+        "Disodium Edta",
+        "Hydroxyethyl Urea",
+        "Citric Acid",
+        "Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer",
+        "Caprylyl Glycol",
+        "Phytosphingosine",
+        "Xanthan Gum",
+        "Histidine",
+        "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+        "Polyquaternium-53",
+        "Polyquaternium-39",
+        "Polysorbate 60",
+        "Ethylhexylglycerin",
+        "Benzoic Acid"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [
+          "sodium hyaluronate"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetearyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [
+          "salicylic acid"
+        ],
+        "ceramides": [
+          "ceramide np",
+          "ceramide ap",
+          "ceramide eop"
+        ],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "cream_texture",
+        "dry_skin",
+        "fragrance_free",
+        "non_comedogenic"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cv-hydrating",
+      "brand": "CeraVe",
+      "name": "Hydrating Facial Cleanser",
+      "category": "cleanser",
+      "texture": "balanced",
+      "skinTypes": [
+        "dry",
+        "normal"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Normal to Dry Skin",
+        "source_selector": "h1.pdp-heading product header / Made For"
+      },
+      "highlights": [],
+      "sensitive": false,
+      "source": "https://www.cerave.com/skincare/cleansers/hydrating-facial-cleanser",
+      "checked": "2026-10-31",
+      "sourceHash": "9bbdf74f64ee79bf43f702105d16ea5da850020ea833e1e214c9dfe0611e4ac5",
+      "ingredients": [
+        "Aqua / Water / Eau",
+        "Glycerin",
+        "Cetearyl Alcohol",
+        "Peg-40 Stearate",
+        "Stearyl Alcohol",
+        "Potassium Phosphate",
+        "Ceramide NP",
+        "Ceramide AP",
+        "Ceramide EOP",
+        "Carbomer",
+        "Glyceryl Stearate",
+        "Behentrimonium Methosulfate",
+        "Sodium Lauroyl Lactylate",
+        "Sodium Hyaluronate",
+        "Cholesterol",
+        "Phenoxyethanol",
+        "Disodium EDTA",
+        "Dipotassium Phosphate",
+        "Tocopherol",
+        "Phytosphingosine",
+        "Xanthan Gum",
+        "Cetyl Alcohol",
+        "Polysorbate 20",
+        "Ethylhexylglycerin"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [
+          "sodium hyaluronate"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetearyl alcohol",
+          "stearyl alcohol",
+          "cetyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [
+          "ceramide np",
+          "ceramide ap",
+          "ceramide eop"
+        ],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "dry_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cv-oil",
+      "brand": "CeraVe",
+      "name": "Hydrating Foaming Oil Cleanser",
+      "category": "cleanser",
+      "texture": "balanced",
+      "skinTypes": [
+        "dry"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Dry to Very Dry Skin; Including Sensitive Skin",
+        "source_selector": "h1.pdp-heading product header / Made For"
+      },
+      "highlights": [
+        "Labelled fragrance-free",
+        "Labelled non-comedogenic"
+      ],
+      "sensitive": true,
+      "source": "https://www.cerave.com/skincare/cleansers/facial-cleansers/hydrating-foaming-oil-cleanser",
+      "checked": "2026-10-31",
+      "sourceHash": "ae8b044906f159125b97beee54d36c82cdc65ee5adbeb3861a2e73e6a0f662ce",
+      "ingredients": [
+        "AQUA/WATER",
+        "GLYCERIN",
+        "PEG-200 HYDROGENATED GLYCERYL PALMATE",
+        "COCO-BETAINE",
+        "DISODIUM COCOYL GLUTAMATE",
+        "PEG-120 METHYL GLUCOSE DIOLEATE",
+        "POLYSORBATE 20",
+        "PEG-7 GLYCERYL COCOATE",
+        "SQUALANE",
+        "CERAMIDE NP",
+        "CERAMIDE AP",
+        "CERAMIDE EOP",
+        "CARBOMER",
+        "TRIETHYL CITRATE",
+        "SODIUM CHLORIDE",
+        "SODIUM HYDROXIDE",
+        "SODIUM COCOYL GLUTAMATE",
+        "SODIUM BENZOATE",
+        "SODIUM LAUROYL LACTYLATE",
+        "SODIUM HYALURONATE",
+        "CHOLESTEROL",
+        "CITRIC ACID",
+        "CAPRYLOYL GLYCINE",
+        "HYDROXYACETOPHENONE",
+        "CAPRYLYL GLYCOL",
+        "CAPRYLIC/ CAPRIC TRIGLYCERIDE",
+        "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+        "PHYTOSPHINGOSINE",
+        "XANTHAN GUM",
+        "BENZOIC ACID",
+        "PEG-150 PENTAERYTHRITYL TETRASTEARATE",
+        "PPG-5-CETETH-20",
+        "PEG-6 CAPRYLIC/CAPRIC GLYCERIDE"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [
+          "sodium hyaluronate"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [
+          "ceramide np",
+          "ceramide ap",
+          "ceramide eop"
+        ],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "dry_skin",
+        "fragrance_free",
+        "non_comedogenic",
+        "sensitive_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cv-sheer30",
+      "brand": "CeraVe",
+      "name": "Hydrating Sheer Sunscreen Broad Spectrum SPF 30 for Face & Body",
+      "category": "sunscreen",
+      "texture": "light",
+      "skinTypes": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skinTypeEvidence": {
+        "wording": "All Skin Types; Sensitive Skin, Acne-Prone Skin",
+        "source_selector": "h1.pdp-heading product header / Made For"
+      },
+      "highlights": [
+        "Broad spectrum SPF 30",
+        "80 min water resistance",
+        "Labelled fragrance-free"
+      ],
+      "sensitive": true,
+      "source": "https://www.cerave.com/sunscreen/hydrating-sheer-sunscreen-broad-spectrum-spf-30-for-face-and-body",
+      "checked": "2026-10-31",
+      "sourceHash": "8959b5469eed8a1ac0725755da03f12ea10e2822246a2a0ca8c1bfb843ddc66a",
+      "ingredients": [
+        "Homosalate 6%",
+        "Octisalate 5%",
+        "Octocrylene 5%",
+        "Zinc oxide 7%",
+        "water",
+        "glycerin",
+        "coco-caprylate/caprate",
+        "propanediol",
+        "butyloctyl salicylate",
+        "C12-22 alkyl acrylate/hydroxyethylacrylate copolymer",
+        "niacinamide",
+        "ethylhexyl methoxycrylene",
+        "oryza sativa (rice) bran wax",
+        "steareth-20",
+        "ceramide NP",
+        "ceramide AP",
+        "ceramide EOP",
+        "sorbitan isostearate",
+        "carbomer",
+        "triethoxycaprylylsilane",
+        "cetearyl alcohol",
+        "behentrimonium methosulfate",
+        "triethyl citrate",
+        "sodium lauroyl lactylate",
+        "sodium hyaluronate",
+        "cholesterol",
+        "chlorphenesin",
+        "hydroxyacetophenone",
+        "hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer",
+        "citric acid",
+        "caprylic/capric triglyceride",
+        "caprylyl glycol",
+        "trisodium ethylenediamine disuccinate",
+        "diethylhexyl syringylidenemalonate",
+        "xanthan gum",
+        "phytosphingosine",
+        "polyhydroxystearic acid",
+        "polysorbate 60",
+        "benzoic acid"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [
+          "niacinamide"
+        ],
+        "hyaluronic_acid_family": [
+          "sodium hyaluronate"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetearyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [
+          "ceramide np",
+          "ceramide ap",
+          "ceramide eop"
+        ],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "broad_spectrum",
+        "fragrance_free",
+        "lightweight"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false,
+      "spf": 30,
+      "waterResistance": 80
+    },
+    {
+      "id": "cv-cream",
+      "brand": "CeraVe",
+      "name": "Moisturizing Cream",
+      "category": "moisturizer",
+      "texture": "rich",
+      "skinTypes": [
+        "dry",
+        "normal"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Normal to Dry Skin",
+        "source_selector": "h1.pdp-heading product header / Made For"
+      },
+      "highlights": [],
+      "sensitive": false,
+      "source": "https://www.cerave.com/skincare/moisturizers/moisturizing-cream",
+      "checked": "2026-10-31",
+      "sourceHash": "b084472c617dc953967f44fd7906bff431ef02c92e3dd1e23a1334836fcc09c8",
+      "ingredients": [
+        "AQUA / WATER / EAU",
+        "GLYCERIN",
+        "CETEARYL ALCOHOL",
+        "CAPRYLIC/CAPRIC TRIGLYCERIDE",
+        "CETYL ALCOHOL",
+        "CETEARETH-20",
+        "PETROLATUM",
+        "POTASSIUM PHOSPHATE",
+        "CERAMIDE NP",
+        "CERAMIDE AP",
+        "CERAMIDE EOP",
+        "CARBOMER",
+        "DIMETHICONE",
+        "BEHENTRIMONIUM METHOSULFATE",
+        "SODIUM LAUROYL LACTYLATE",
+        "SODIUM HYALURONATE",
+        "CHOLESTEROL",
+        "PHENOXYETHANOL",
+        "DISODIUM EDTA",
+        "DIPOTASSIUM PHOSPHATE",
+        "TOCOPHEROL",
+        "PHYTOSPHINGOSINE",
+        "XANTHAN GUM",
+        "ETHYLHEXYLGLYCERIN"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [
+          "sodium hyaluronate"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetearyl alcohol",
+          "cetyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [
+          "ceramide np",
+          "ceramide ap",
+          "ceramide eop"
+        ],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "cream_texture",
+        "dry_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cv-oil-control",
+      "brand": "CeraVe",
+      "name": "Oil Control Moisturizing Gel-Cream",
+      "category": "moisturizer",
+      "texture": "light",
+      "skinTypes": [
+        "combination",
+        "oily"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Combination to Oily Skin",
+        "source_selector": "h1.pdp-heading product header / Made For"
+      },
+      "highlights": [
+        "Labelled fragrance-free",
+        "Labelled non-comedogenic"
+      ],
+      "sensitive": true,
+      "source": "https://www.cerave.com/skincare/moisturizers/facial-moisturizers/oil-control-moisturizing-gel-cream",
+      "checked": "2026-10-31",
+      "sourceHash": "76d960788db23f3567495aa9d39ae70368f304b9292221ac94f2d923d643521b",
+      "ingredients": [
+        "AQUA / WATER / EAU",
+        "NIACINAMIDE",
+        "GLYCERIN",
+        "CETEARYL ISONONANOATE",
+        "C14-22 ALCOHOLS",
+        "ISOPROPYL MYRISTATE",
+        "ZEA MAYS STARCH / CORN STARCH",
+        "CERAMIDE NP",
+        "CERAMIDE AP",
+        "CERAMIDE EOP",
+        "CARBOMER",
+        "CETEARYL ALCOHOL",
+        "BEHENTRIMONIUM METHOSULFATE",
+        "TRIETHYL CITRATE",
+        "SILICA",
+        "SODIUM HYDROXIDE",
+        "SODIUM HYALURONATE",
+        "SODIUM LAUROYL LACTYLATE",
+        "CHOLESTEROL",
+        "PHENOXYETHANOL",
+        "CITRIC ACID",
+        "CAPRYLYL GLYCOL",
+        "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+        "XANTHAN GUM",
+        "PHYTOSPHINGOSINE",
+        "POLYACRYLATE CROSSPOLYMER-6",
+        "BENZOIC ACID",
+        "C12-20 ALKYL GLUCOSIDE"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [
+          "niacinamide"
+        ],
+        "hyaluronic_acid_family": [
+          "sodium hyaluronate"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetearyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [
+          "ceramide np",
+          "ceramide ap",
+          "ceramide eop"
+        ],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "all_skin_types",
+        "cream_texture",
+        "fragrance_free",
+        "gel_texture",
+        "lightweight",
+        "non_comedogenic"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cv-gel",
+      "brand": "CeraVe",
+      "name": "Ultra-Light Moisturizing Gel",
+      "category": "moisturizer",
+      "texture": "light",
+      "skinTypes": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skinTypeEvidence": {
+        "wording": "All Skin Types",
+        "source_selector": "h1.pdp-heading product header / Made For"
+      },
+      "highlights": [
+        "Labelled fragrance-free",
+        "Labelled oil-free",
+        "Labelled non-comedogenic"
+      ],
+      "sensitive": true,
+      "source": "https://www.cerave.com/skincare/moisturizers/facial-moisturizers/ultra-light-moisturizing-gel",
+      "checked": "2026-10-31",
+      "sourceHash": "b7b790783591d83bf247ed2e8b7a4f5ea06f8e60b9e61519c623579cf0304e48",
+      "ingredients": [
+        "AQUA / WATER / EAU",
+        "GLYCERIN",
+        "NIACINAMIDE",
+        "PROPANEDIOL",
+        "DIMETHICONE",
+        "ISONONYL ISONONANOATE",
+        "CERAMIDE NP",
+        "CERAMIDE AP",
+        "CERAMIDE EOP",
+        "CARBOMER",
+        "DIMETHICONE CROSSPOLYMER",
+        "CETEARYL ALCOHOL",
+        "BEHENTRIMONIUM METHOSULFATE",
+        "TRIETHYL CITRATE",
+        "SILICA",
+        "SODIUM HYDROXIDE",
+        "SODIUM HYALURONATE",
+        "SODIUM LAUROYL LACTYLATE",
+        "CHOLESTEROL",
+        "PHENOXYETHANOL",
+        "TOCOPHEROL",
+        "CHLORPHENESIN",
+        "CAPRYLYL GLYCOL",
+        "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+        "BIOSACCHARIDE GUM-1",
+        "XANTHAN GUM",
+        "PHYTOSPHINGOSINE",
+        "BENZOIC ACID (CODE F.I.L. T70024611/1)"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [
+          "niacinamide"
+        ],
+        "hyaluronic_acid_family": [
+          "sodium hyaluronate"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetearyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [
+          "ceramide np",
+          "ceramide ap",
+          "ceramide eop"
+        ],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "all_skin_types",
+        "fragrance_free",
+        "gel_texture",
+        "lightweight",
+        "non_comedogenic",
+        "oil_free",
+        "sensitive_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cetaphil-1eccb8d7f3",
+      "brand": "Cetaphil",
+      "name": "Advanced Radiance Lotion",
+      "category": "moisturizer",
+      "texture": "balanced",
+      "skinTypes": [
+        "dry"
+      ],
+      "skinTypeEvidence": {
+        "wording": "For dry, dull skin",
+        "source_selector": "product description / Skin type"
+      },
+      "highlights": [
+        "Labelled fragrance-free"
+      ],
+      "sensitive": true,
+      "source": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/advanced-radiance-lotion/302993914280.html",
+      "checked": "2026-10-31",
+      "sourceHash": "4ac9b1c9f9868374a082de895b5b82ea2f89f2ab84f08ce2a9aa3866a324136f",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Isopropyl Palmitate",
+        "Helianthus Annuus (Sunflower) Seed Oil",
+        "Cetearyl Alcohol",
+        "Ceteareth-20",
+        "Dimethicone",
+        "Butyrospermum Parkii (Shea) Butter",
+        "Panthenol",
+        "Niacinamide",
+        "Tocopheryl Acetate",
+        "Sodium PCA",
+        "Pantolactone",
+        "Glyceryl Stearate",
+        "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+        "Sodium Benzoate",
+        "Potassium Sorbate",
+        "Citric Acid"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [
+          "niacinamide"
+        ],
+        "hyaluronic_acid_family": [],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetearyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "fragrance_free",
+        "sensitive_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cetaphil-62409941d4",
+      "brand": "Cetaphil",
+      "name": "Cetaphil Daily Facial Cleanser Fragrance Free",
+      "category": "cleanser",
+      "texture": "light",
+      "skinTypes": [
+        "combination",
+        "oily"
+      ],
+      "skinTypeEvidence": {
+        "wording": "For combination to oily, sensitive skin",
+        "source_selector": "product description / Skin type"
+      },
+      "highlights": [
+        "Labelled fragrance-free"
+      ],
+      "sensitive": true,
+      "source": "https://www.cetaphil.com/us/products/facial/cetaphil-daily-facial-cleanser-fragrance-free/302993927402.html",
+      "checked": "2026-10-31",
+      "sourceHash": "75c0dc4fd0e9d7d980e0ff39c0b07a789e2d60e87efae93eee2d3633f58fc86f",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Cocamidopropyl Betaine",
+        "Disodium Laureth Sulfosuccinate",
+        "Sodium Cocoamphoacetate",
+        "Panthenol",
+        "Niacinamide",
+        "Pantolactone",
+        "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+        "Sodium Benzoate",
+        "Sodium Chloride",
+        "Citric Acid"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [
+          "niacinamide"
+        ],
+        "hyaluronic_acid_family": [],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "fragrance_free",
+        "gel_texture"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cetaphil-a48a35549b",
+      "brand": "Cetaphil",
+      "name": "Cetaphil Gentle Skin Cleanser",
+      "category": "cleanser",
+      "texture": "rich",
+      "skinTypes": [
+        "dry",
+        "normal"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Normal to dry",
+        "source_selector": "product description / Skin type"
+      },
+      "highlights": [
+        "Labelled fragrance-free",
+        "Labelled oil-free"
+      ],
+      "sensitive": true,
+      "source": "https://www.cetaphil.com/us/products/product-categories/all-cleansers/cetaphil-gentle-skin-cleanser/302990110227.html",
+      "checked": "2026-10-31",
+      "sourceHash": "435bb19b8de21d80de538cc5426b432907415fdfcd0b37cb00bfe200adaa4686",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Cetearyl Alcohol",
+        "Panthenol",
+        "Niacinamide",
+        "Pantolactone",
+        "Xanthan Gum",
+        "Sodium Cocoyl Isethionate",
+        "Sodium Benzoate",
+        "Citric Acid"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [
+          "niacinamide"
+        ],
+        "hyaluronic_acid_family": [],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetearyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "cream_texture",
+        "fragrance_free",
+        "oil_free"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cetaphil-de63055e94",
+      "brand": "Cetaphil",
+      "name": "Daily Hydrating Lotion",
+      "category": "moisturizer",
+      "texture": "light",
+      "skinTypes": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skinTypeEvidence": {
+        "wording": "For all skin types",
+        "source_selector": "product description / Skin type"
+      },
+      "highlights": [
+        "Labelled fragrance-free",
+        "Labelled oil-free"
+      ],
+      "sensitive": true,
+      "source": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/daily-hydrating-lotion/302993889038.html",
+      "checked": "2026-10-31",
+      "sourceHash": "5f9674bf423bff88c5af3117ba48867e0555d2020db94d205758ba170f44c567",
+      "ingredients": [
+        "Water",
+        "Dicaprylyl Carbonate",
+        "Hydroxyethyl Urea",
+        "Cyclopentasiloxane",
+        "Glycerin",
+        "Glyceryl Stearate",
+        "PEG-100 Stearate",
+        "Hydrolyzed Hyaluronic Acid",
+        "Sodium Hydroxide",
+        "Homarine HCI",
+        "Sodium PCA",
+        "Cetyl Alcohol",
+        "Caprylyl Glycol",
+        "Phenoxyethanol",
+        "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+        "Erythritol"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [
+          "hydrolyzed hyaluronic acid"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "fragrance_free",
+        "lightweight",
+        "oil_free"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cetaphil-c755aeefb2",
+      "brand": "Cetaphil",
+      "name": "Gentle Foaming Cleanser",
+      "category": "cleanser",
+      "texture": "balanced",
+      "skinTypes": [
+        "dry",
+        "normal"
+      ],
+      "skinTypeEvidence": {
+        "wording": "For dry to normal, sensitive skin",
+        "source_selector": "product description / Skin type"
+      },
+      "highlights": [
+        "Labelled fragrance-free"
+      ],
+      "sensitive": true,
+      "source": "https://www.cetaphil.com/us/products/product-categories/all-cleansers/gentle-foaming-cleanser/302993889175.html",
+      "checked": "2026-10-31",
+      "sourceHash": "8e5d46890f6c8890370e9e7a3aabd5abfa516dd2f02e5eae47618bb111785eaf",
+      "ingredients": [
+        "Water",
+        "Cocamidopropyl Betaine",
+        "Coco-Glucoside",
+        "Betaine",
+        "Glycerin",
+        "Panthenol (Vitamin B5)",
+        "Tocopheryl Acetate (Vitamin E)",
+        "Sodium Benzoate",
+        "Polysorbate 20",
+        "Polyquaternium-10",
+        "Phenoxyethanol",
+        "Citric Acid"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "fragrance_free"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cetaphil-a1e55fa7e7",
+      "brand": "Cetaphil",
+      "name": "Hydrating Foaming Cream Cleanser",
+      "category": "cleanser",
+      "texture": "rich",
+      "skinTypes": [
+        "dry",
+        "normal"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Normal to dry",
+        "source_selector": "product description / Skin type"
+      },
+      "highlights": [
+        "Labelled fragrance-free",
+        "Labelled oil-free"
+      ],
+      "sensitive": true,
+      "source": "https://www.cetaphil.com/us/products/product-categories/all-cleansers/hydrating-foaming-cream-cleanser/302990117097.html",
+      "checked": "2026-10-31",
+      "sourceHash": "1590a217a5aca588c561257bafcfd43f2a87086bd403de18118fbf2f46eab9ea",
+      "ingredients": [
+        "Water",
+        "Sodium Cocoyl Isethionate",
+        "Glycerin",
+        "Glycol Distearate​",
+        "Sodium Cocoyl Glutamate",
+        "Cocamidopropyl Betaine",
+        "Sodium Lauroyl Sarcosinate",
+        "Cetearyl Alcohol",
+        "Phenoxyethanol",
+        "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+        "Arginine",
+        "Propylene Glycol",
+        "Sodium Chloride",
+        "Xanthan Gum",
+        "Ethylhexylglycerin",
+        "Niacinamide",
+        "Panthenol",
+        "Aloe Barbadensis Leaf Juice Powder",
+        "Pantolactone",
+        "Citric Acid"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [
+          "niacinamide"
+        ],
+        "hyaluronic_acid_family": [],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetearyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "cream_texture",
+        "fragrance_free",
+        "oil_free"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cetaphil-5ea7d4a517",
+      "brand": "Cetaphil",
+      "name": "Moisturizing Cream",
+      "category": "moisturizer",
+      "texture": "rich",
+      "skinTypes": [
+        "dry"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Dry to Very Dry Skin",
+        "source_selector": "product description / Skin type"
+      },
+      "highlights": [
+        "Labelled fragrance-free"
+      ],
+      "sensitive": true,
+      "source": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/moisturizing-cream/302993917564.html",
+      "checked": "2026-10-31",
+      "sourceHash": "3048177a4123a5fd4294b6310aa10e0d1fd517b7cea1c582883f398a0fdcdc99",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Petrolatum",
+        "Dicaprylyl Ether",
+        "Dimethicone",
+        "Glyceryl Stearate",
+        "Cetyl Alcohol",
+        "Helianthus Annuus (Sunflower) Seed Oil",
+        "Peg-30 Stearate",
+        "Panthenol",
+        "Niacinamide",
+        "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+        "Tocopheryl Acetate",
+        "Pantolactone",
+        "Dimethiconol",
+        "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+        "Carbomer",
+        "Propylene Glycol",
+        "Disodium Edta",
+        "Benzyl Alcohol",
+        "Phenoxyethanol",
+        "Sodium Hydroxide",
+        "Citric Acid"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [
+          "niacinamide"
+        ],
+        "hyaluronic_acid_family": [],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "cream_texture",
+        "fragrance_free",
+        "sensitive_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cetaphil-03a1c9abd4",
+      "brand": "Cetaphil",
+      "name": "Nourishing Oil to Foam Cleanser",
+      "category": "cleanser",
+      "texture": "balanced",
+      "skinTypes": [
+        "dry",
+        "normal"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Normal to Dry skin",
+        "source_selector": "product description / Skin type"
+      },
+      "highlights": [
+        "Labelled fragrance-free"
+      ],
+      "sensitive": true,
+      "source": "https://www.cetaphil.com/us/products/product-categories/facial-cleansers/nourishing-oil-to-foam-cleanser/302990532371.html",
+      "checked": "2026-10-31",
+      "sourceHash": "36d46696965df0c951ee6ca43ff1bacdd3c967e997210d80d4d320a179d248a7",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Cocamidopropyl Betaine",
+        "Butylene Glycol",
+        "Peg-40 Hydrogenated Castor Oil",
+        "Lauryl Glucoside",
+        "Peg-200 Hydrogenated Glyceryl Palmate",
+        "Sodium Cocoamphoacetate",
+        "Sodium Cocoyl Alaninate",
+        "Sodium Chloride",
+        "Peg-150 Pentaerythrityl Tetrastearate",
+        "Citric Acid",
+        "Panthenol",
+        "Phenoxyethanol",
+        "Peg-7 Glyceryl Cocoate",
+        "Ppg-2 Hydroxyethyl Cocamide",
+        "Saccharide Isomerate",
+        "Ethylhexylglycerin",
+        "Disodium Edta",
+        "Linum Usitatissimum (Linseed) Seed Oil",
+        "Niacinamide",
+        "Pantolactone",
+        "Sodium Citrate"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [
+          "niacinamide"
+        ],
+        "hyaluronic_acid_family": [],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "dry_skin",
+        "fragrance_free",
+        "sensitive_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "cetaphil-81c3300132",
+      "brand": "Cetaphil",
+      "name": "Sheer Mineral* Sunscreen Face Drops SPF 50",
+      "category": "sunscreen",
+      "texture": "balanced",
+      "skinTypes": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skinTypeEvidence": {
+        "wording": "All skin types",
+        "source_selector": "product description / Skin type"
+      },
+      "highlights": [
+        "Broad spectrum SPF 50",
+        "80 min water resistance",
+        "Labelled fragrance-free"
+      ],
+      "sensitive": true,
+      "source": "https://www.cetaphil.com/us/products/product-categories/sunscreens/sheer-mineral*-sunscreen-face-drops-spf-50/302994110001.html",
+      "checked": "2026-10-31",
+      "sourceHash": "9c79ff32c7a1dea3e9b6dc556e749e0c68055110a42b6b9dba1da1872496bc09",
+      "ingredients": [
+        "Zinc Oxide 12% (Sunscreen)",
+        "Allantoin",
+        "Bisabolol",
+        "Butyloctyl Salicylate",
+        "C12-15 Alkyl Benzoate",
+        "Caprylyl Glycol",
+        "Caprylyl Methicone",
+        "Dimethicone",
+        "Dimethiconol/Propylsilsesquioxane/Silicate Crosspolymer",
+        "Ethylhexylglycerin",
+        "Hexylene Glycol",
+        "Isododecane",
+        "Lauryl Peg-10 Tris(Trimethylsiloxy)Silylethyl Dimethicone",
+        "Lauryl Peg-8 Dimethicone",
+        "Niacinamide",
+        "Octyldodecyl Neopentanoate",
+        "Peg-10",
+        "Phenoxyethanol",
+        "Polymethylsilsesquioxane",
+        "Propanediol",
+        "Sodium Chloride",
+        "Sodium Hydroxide",
+        "Tetrasodium Glutamate Diacetate",
+        "Tocopherol (Vitamin E)",
+        "Trilaureth-4 Phosphate",
+        "Water"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [
+          "niacinamide"
+        ],
+        "hyaluronic_acid_family": [],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": []
+      },
+      "labelClaims": [
+        "broad_spectrum",
+        "fragrance_free"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false,
+      "spf": 50,
+      "waterResistance": 80
+    },
+    {
+      "id": "cetaphil-ccd8a9eddd",
+      "brand": "Cetaphil",
+      "name": "Sheer Mineral* Sunscreen Lotion SPF 50",
+      "category": "sunscreen",
+      "texture": "light",
+      "skinTypes": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skinTypeEvidence": {
+        "wording": "All skin types",
+        "source_selector": "product description / Skin type"
+      },
+      "highlights": [
+        "Broad spectrum SPF 50",
+        "80 min water resistance",
+        "Labelled fragrance-free"
+      ],
+      "sensitive": true,
+      "source": "https://www.cetaphil.com/us/products/product-categories/sunscreens/sheer-mineral*-sunscreen-lotion-spf-50/302994122004.html",
+      "checked": "2026-10-31",
+      "sourceHash": "8d00c63874faedc97a00ea01b6698f3ac580404161ac155cb09ba094d79d808e",
+      "ingredients": [
+        "Titanium Dioxide 9.0% (Sunscreen)",
+        "Zinc Oxide 7.0% (Sunscreen)",
+        "Water",
+        "Isohexadecane",
+        "Butyloctyl Salicylate",
+        "Cetyl Dimethicone",
+        "Styrene/Acrylates Copolymer",
+        "Olive Oil Polyglyceryl-6 Esters",
+        "Sorbitan Olivate",
+        "Sodium Stearoyl Lactylate",
+        "Vp/Eicosene Copolymer",
+        "Cetearyl Alcohol",
+        "Cetearyl Olivate",
+        "Cetyl Palmitate",
+        "Sorbitan Palmitate",
+        "Dimethicone Peg-8 Laurate",
+        "Ceramide Np",
+        "Ceramide Ap",
+        "Ceramide Eop",
+        "Cholesterol",
+        "Phytosphingosine",
+        "Hydrolyzed Hyaluronic Acid",
+        "Benzyl Alcohol",
+        "Bisabolol",
+        "Dipotassium Glycyrrhizate",
+        "Propanediol",
+        "Xanthan Gum",
+        "Aluminum Hydroxide",
+        "Sodium Lauroyl Lactylate",
+        "Carbomer",
+        "Tocopheryl Acetate",
+        "Disodium Edta",
+        "Stearic Acid",
+        "Triethoxycaprylylsilane",
+        "Citric Acid",
+        "Maltodextrin",
+        "Phenoxyethanol",
+        "Capryloyl Glycine",
+        "Undecylenoyl Glycine"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [
+          "hydrolyzed hyaluronic acid"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetearyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [
+          "ceramide np",
+          "ceramide ap",
+          "ceramide eop"
+        ],
+        "glycerin": []
+      },
+      "labelClaims": [
+        "broad_spectrum",
+        "fragrance_free",
+        "lightweight",
+        "sensitive_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false,
+      "spf": 50,
+      "waterResistance": 80
+    },
+    {
+      "id": "cetaphil-84d5c7afc6",
+      "brand": "Cetaphil",
+      "name": "Sheer Mineral* Sunscreen Stick SPF 50",
+      "category": "sunscreen",
+      "texture": "light",
+      "skinTypes": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skinTypeEvidence": {
+        "wording": "All skin types",
+        "source_selector": "product description / Skin type"
+      },
+      "highlights": [
+        "Broad spectrum SPF 50",
+        "80 min water resistance",
+        "Labelled fragrance-free"
+      ],
+      "sensitive": true,
+      "source": "https://www.cetaphil.com/us/products/product-categories/sunscreens/sheer-mineral*-sunscreen-stick-spf-50/302994108008.html",
+      "checked": "2026-10-31",
+      "sourceHash": "f5335812e27f625e2a1a966399fdfb62e36cc5846a06f65b16abc8b4393fab39",
+      "ingredients": [
+        "Titanium dioxide 6% (sunscreen)",
+        "zinc oxide 4.7% (sunscreen)",
+        "aluminum hydroxide",
+        "beeswax",
+        "bht",
+        "butyloctyl salicylate",
+        "c12-15 alkyl benzoate",
+        "cetyl alcohol",
+        "dimethicone",
+        "euphorbia cerifera (candelilla) wax",
+        "isostearic acid",
+        "neopentyl glycol diethylhexanoate",
+        "ozokerite",
+        "paraffin",
+        "polyethylene",
+        "stearic acid",
+        "tocopheryl acetate (vitamin e)",
+        "triethoxycaprylylsilane"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": []
+      },
+      "labelClaims": [
+        "broad_spectrum",
+        "fragrance_free",
+        "lightweight"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false,
+      "spf": 50,
+      "waterResistance": 80
+    },
+    {
+      "id": "eucerin-22125a9eba",
+      "brand": "Eucerin",
+      "name": "Face Immersive Hydration Gel-Cream",
+      "category": "moisturizer",
+      "texture": "light",
+      "skinTypes": [
+        "dry"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Dry skin Sensitive skin",
+        "source_selector": ".product-stage__description / Skin concerns"
+      },
+      "highlights": [
+        "Labelled non-comedogenic"
+      ],
+      "sensitive": false,
+      "source": "https://www.eucerinus.com/products/immersive-hydration/immersive-hydration-gel-cream",
+      "checked": "2026-10-31",
+      "sourceHash": "14906b2cf456d8295a33af1a340c8763d6dcef8fd236c3d20784afcb4605d646",
+      "ingredients": [
+        "Water",
+        "Alcohol Denat.",
+        "Glycerin",
+        "Panthenol",
+        "Distarch Phosphate",
+        "Sodium Hyaluronate",
+        "Cetearyl Isononanoate",
+        "Isopropyl Palmitate",
+        "Lauroyl Lysine",
+        "Squalene",
+        "Tocopherol",
+        "Gellan Gum",
+        "Carrageenan",
+        "Pantolactone",
+        "Glycine Soja (Soybean) Oil",
+        "Cetyl Alcohol",
+        "Dehydroxanthan Gum",
+        "Xanthan Gum",
+        "Behenyl Alcohol",
+        "Citric Acid",
+        "Lactic Acid",
+        "Phenoxyethanol",
+        "Fragrance"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [
+          "sodium hyaluronate"
+        ],
+        "fragrance_terms": [
+          "fragrance"
+        ],
+        "denatured_or_ethanol": [
+          "alcohol denat."
+        ],
+        "fatty_alcohols": [
+          "cetyl alcohol",
+          "behenyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "all_skin_types",
+        "cream_texture",
+        "dry_skin",
+        "gel_texture",
+        "lightweight",
+        "non_comedogenic",
+        "sensitive_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "eucerin-5287c19d21",
+      "brand": "Eucerin",
+      "name": "Hydrating Face Cleansing Gel,Hyaluronic Acid",
+      "category": "cleanser",
+      "texture": "light",
+      "skinTypes": [
+        "dry"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Sensitive skin Dry skin",
+        "source_selector": ".product-stage__description / Skin concerns"
+      },
+      "highlights": [],
+      "sensitive": false,
+      "source": "https://www.eucerinus.com/products/gentle-cleansing/hydrating-cleansing-gel",
+      "checked": "2026-10-31",
+      "sourceHash": "3bcb9cc14505ad93318efc6728f6eb178d07ac9408f3401a707dc1d9b6a11753",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Coco-Betaine",
+        "Coco-Glucoside",
+        "Glyceryl Glucoside",
+        "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+        "Sodium Hyaluronate",
+        "Trisodium EDTA",
+        "Sodium Chloride",
+        "Sodium Benzoate"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [
+          "sodium hyaluronate"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "all_skin_types",
+        "dry_skin",
+        "gel_texture",
+        "sensitive_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "eucerin-a20277b49d",
+      "brand": "Eucerin",
+      "name": "Q10 Anti-Wrinkle Sensitive Skin Face Creme 1.7 oz. Box",
+      "category": "moisturizer",
+      "texture": "rich",
+      "skinTypes": [
+        "dry"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Aging skin Dry skin Sensitive skin",
+        "source_selector": ".product-stage__description / Skin concerns"
+      },
+      "highlights": [
+        "Labelled fragrance-free",
+        "Labelled non-comedogenic"
+      ],
+      "sensitive": true,
+      "source": "https://www.eucerinus.com/products/q10-active/eucerin-q10-anti-wrinkle-sensitive-skin-creme",
+      "checked": "2026-10-31",
+      "sourceHash": "7be29a5a8e6a762683ec8838412772b3ecc13ddcf4caaf032b5c03f8e74b78e3",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Ethylhexyl Cocoate",
+        "Hydrogenated Coco-Glycerides",
+        "Stearyl Alcohol",
+        "Butylene Glycol",
+        "Cetyl Alcohol",
+        "Caprylic/Capric Triglyceride",
+        "Butyrospermum Parkii (Shea) Butter",
+        "Glyceryl Stearate Citrate",
+        "Octyldodecanol",
+        "Tocopheryl Acetate",
+        "Ubiquinone",
+        "Biotin",
+        "Biosaccharide Gum-1",
+        "Sodium Ascorbyl Phosphate",
+        "Zea Mays (Corn) Oil",
+        "Beta-Carotene",
+        "Tocopherol",
+        "1,2-Hexanediol",
+        "Carbomer",
+        "Sodium Hydroxide",
+        "Trisodium EDTA",
+        "Dehydroacetic Acid",
+        "Phenoxyethanol"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "stearyl alcohol",
+          "cetyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "cream_texture",
+        "dry_skin",
+        "fragrance_free",
+        "non_comedogenic",
+        "sensitive_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "theordinary-fbae22064d",
+      "brand": "The Ordinary",
+      "name": "Natural Moisturizing Factors + Beta Glucan",
+      "category": "moisturizer",
+      "texture": "light",
+      "skinTypes": [
+        "oily"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Oily Skin",
+        "source_selector": "p.suitedTo"
+      },
+      "highlights": [],
+      "sensitive": false,
+      "source": "https://theordinary.com/en-us/natural-moisturizing-factors-beta-glucan-moisturizer-100612.html",
+      "checked": "2026-10-31",
+      "sourceHash": "aaf768ececcfde9ffb2f65837ffd75eacc1d9f016bfdfcee6d1f2eed626372fb",
+      "ingredients": [
+        "Aqua (Water)",
+        "PPG-24-Glycereth-24",
+        "Propanediol",
+        "Betaine",
+        "Beta-Glucan",
+        "Arginine",
+        "Glycine",
+        "Alanine",
+        "Serine",
+        "Proline",
+        "Threonine",
+        "Glutamic Acid",
+        "Lysine HCl",
+        "Glucose",
+        "Maltose",
+        "Fructose",
+        "Trehalose",
+        "Xylitol",
+        "Anhydroxylitol",
+        "Xylitylglucoside",
+        "Sodium PCA",
+        "PCA",
+        "Sodium Lactate",
+        "Urea",
+        "Allantoin",
+        "Sodium Hyaluronate",
+        "Phospholipids",
+        "Sphingolipids",
+        "Glycerin",
+        "Pentylene Glycol",
+        "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+        "Sodium Hydroxide",
+        "Sodium Chloride",
+        "Sodium Citrate",
+        "Citric Acid",
+        "Tocopherol",
+        "P-Anisic Acid",
+        "Aminomethyl Propanol",
+        "Phenoxyethanol",
+        "Chlorphenesin"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [
+          "sodium hyaluronate"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "gel_texture",
+        "lightweight"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "theordinary-e30aabcf56",
+      "brand": "The Ordinary",
+      "name": "Natural Moisturizing Factors + PhytoCeramides",
+      "category": "moisturizer",
+      "texture": "balanced",
+      "skinTypes": [
+        "dry"
+      ],
+      "skinTypeEvidence": {
+        "wording": "Dry Skin",
+        "source_selector": "p.suitedTo"
+      },
+      "highlights": [],
+      "sensitive": false,
+      "source": "https://theordinary.com/en-us/natural-moisturizing-factors-phytoceramides-moisturizer-100610.html",
+      "checked": "2026-10-31",
+      "sourceHash": "131a15665a1d39cc3a4a5dd1864d33dc3e53214d40d8a01543c8d2cad41b770a",
+      "ingredients": [
+        "Aqua (Water)",
+        "Caprylic/Capric Triglyceride",
+        "Cetyl Ethylhexanoate",
+        "Isodecyl Neopentanoate",
+        "Glycerin",
+        "Propanediol",
+        "Polyglyceryl-6 Polyricinoleate",
+        "Hydrogenated Vegetable Oil",
+        "Polyglyceryl-2 Isostearate",
+        "Isosorbide Dicaprylate",
+        "Disteardimonium Hectorite",
+        "Phytosteryl Canola Glycerides",
+        "Glycosphingolipids",
+        "Glycolipids",
+        "Linoleic Acid",
+        "Oleic Acid",
+        "Palmitic Acid",
+        "Stearic Acid",
+        "Arginine",
+        "Glycine",
+        "Alanine",
+        "Serine",
+        "Proline",
+        "Threonine",
+        "Glutamic Acid",
+        "Lysine HCl",
+        "Betaine",
+        "Xylitylglucoside",
+        "Anhydroxylitol",
+        "Xylitol",
+        "Glucose",
+        "Maltose",
+        "Fructose",
+        "Trehalose",
+        "Sodium PCA",
+        "PCA",
+        "Sodium Lactate",
+        "Urea",
+        "Allantoin",
+        "Sodium Hyaluronate",
+        "Lecithin",
+        "Triolein",
+        "Dimethyl Isosorbide",
+        "Pentylene Glycol",
+        "Tocopherol",
+        "Hydroxymethoxyphenyl Decanone",
+        "Citric Acid",
+        "Trisodium Ethylenediamine Disuccinate",
+        "Magnesium Sulfate",
+        "Sodium Chloride",
+        "Sodium Hydroxide",
+        "Phenoxyethanol",
+        "Chlorphenesin"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [
+          "sodium hyaluronate"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "theordinary-b2c84945b3",
+      "brand": "The Ordinary",
+      "name": "Rice Lipids + Ectoin Microemulsion",
+      "category": "moisturizer",
+      "texture": "light",
+      "skinTypes": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skinTypeEvidence": {
+        "wording": "All Skin Types",
+        "source_selector": "p.suitedTo"
+      },
+      "highlights": [],
+      "sensitive": false,
+      "source": "https://theordinary.com/en-us/rice-lipids-ectoin-microemulsion-moisturizer-100739.html",
+      "checked": "2026-10-31",
+      "sourceHash": "ea48a83e5d1b1621ae73ea1a909a9ff362ac53f2e21ad2eecf2cf6db7b1838b8",
+      "ingredients": [
+        "Aqua/Water/Eau",
+        "Oryza Sativa (Rice) Lipids",
+        "Simmondsia Chinensis (Jojoba) Seed Oil",
+        "Ectoin",
+        "Hydrogenated Lecithin",
+        "Propanediol",
+        "Glycerin",
+        "Rhus Succedanea Fruit Wax",
+        "Glyceryl Glucoside",
+        "Sodium Hyaluronate",
+        "Allantoin",
+        "Urea",
+        "Serine",
+        "Alanine",
+        "Glycine",
+        "Glutamic Acid",
+        "Lysine HCl",
+        "Threonine",
+        "Arginine",
+        "Proline",
+        "PCA",
+        "Sodium PCA",
+        "Xylitylglucoside",
+        "Anhydroxylitol",
+        "Xylitol",
+        "Fructose",
+        "Glucose",
+        "Maltose",
+        "Trehalose",
+        "Betaine",
+        "Pentylene Glycol",
+        "Polyglyceryl-10 Laurate",
+        "Hydroxyacetophenone",
+        "Tocopherol",
+        "Sodium Chloride",
+        "Sodium Lactate",
+        "Sodium Citrate",
+        "Citric Acid",
+        "Sodium Hydroxide",
+        "Isoceteth-20",
+        "Trisodium Ethylenediamine Disuccinate",
+        "1,2-Hexanediol",
+        "Ethylhexylglycerin",
+        "Phenoxyethanol",
+        "Chlorphenesin"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [
+          "sodium hyaluronate"
+        ],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "lightweight"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "vanicream-9bca9ed039",
+      "brand": "Vanicream",
+      "name": "Vanicream™ Cleansing Bar",
+      "category": "cleanser",
+      "texture": "rich",
+      "skinTypes": [
+        "dry"
+      ],
+      "skinTypeEvidence": {
+        "wording": "dry skin",
+        "source_selector": ".productInfo__content / Ideal for"
+      },
+      "highlights": [
+        "Labelled fragrance-free",
+        "Labelled non-comedogenic"
+      ],
+      "sensitive": true,
+      "source": "https://www.vanicream.com/product/vanicream-cleansing-bar",
+      "checked": "2026-10-31",
+      "sourceHash": "fd84fdcf6e738b646416d91943555dc7a7aba5d926dfdcb8dbdd2da37fc10c94",
+      "ingredients": [
+        "sodium cocoyl isethionate",
+        "stearic acid",
+        "water",
+        "coconut acid",
+        "sodium isethionate",
+        "sodium lauroyl sarcosinate",
+        "sodium laurate",
+        "sorbitol",
+        "propanediol",
+        "cetearyl alcohol",
+        "glyceryl stearate",
+        "simethicone",
+        "sodium chloride",
+        "petrolatum",
+        "ceteareth-20",
+        "PEG-30 stearate",
+        "PEG-20",
+        "titanium dioxide"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetearyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": []
+      },
+      "labelClaims": [
+        "cream_texture",
+        "dry_skin",
+        "fragrance_free",
+        "non_comedogenic",
+        "sensitive_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "vanicream-5de2749297",
+      "brand": "Vanicream",
+      "name": "Vanicream™ Gentle Facial Cleanser",
+      "category": "cleanser",
+      "texture": "rich",
+      "skinTypes": [
+        "dry"
+      ],
+      "skinTypeEvidence": {
+        "wording": "dry skin",
+        "source_selector": ".productInfo__content / Ideal for"
+      },
+      "highlights": [
+        "Labelled fragrance-free",
+        "Labelled non-comedogenic"
+      ],
+      "sensitive": true,
+      "source": "https://www.vanicream.com/product/vanicream-facial-cleanser",
+      "checked": "2026-10-31",
+      "sourceHash": "79bce91488c3a1444b9abafb6a5cb8c000f8eacfd2c348084e470efd9e5b9cad",
+      "ingredients": [
+        "water",
+        "glycerin",
+        "coco-glucoside",
+        "sodium cocoyl glycinate",
+        "acrylates copolymer",
+        "caprylyl glycol",
+        "mica",
+        "sodium chloride",
+        "1,2-hexanediol",
+        "titanium dioxide",
+        "sodium hydroxide",
+        "disodium EDTA"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": [
+          "glycerin"
+        ]
+      },
+      "labelClaims": [
+        "cream_texture",
+        "dry_skin",
+        "fragrance_free",
+        "non_comedogenic",
+        "sensitive_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "vanicream-65c6157e92",
+      "brand": "Vanicream",
+      "name": "Vanicream™ Moisturizing Cream",
+      "category": "moisturizer",
+      "texture": "rich",
+      "skinTypes": [
+        "dry"
+      ],
+      "skinTypeEvidence": {
+        "wording": "dry skin",
+        "source_selector": ".productInfo__content / Ideal for"
+      },
+      "highlights": [
+        "Labelled fragrance-free",
+        "Labelled non-comedogenic"
+      ],
+      "sensitive": true,
+      "source": "https://www.vanicream.com/product/vanicream-moisturizing-cream",
+      "checked": "2026-10-31",
+      "sourceHash": "e0a7fb4be40c09d541fc813c2d1a8d2970de2342f4a51b6c4cb78f95d26fcb8c",
+      "ingredients": [
+        "water",
+        "petrolatum",
+        "sorbitol",
+        "cetearyl alcohol",
+        "propylene glycol",
+        "ceteareth-20",
+        "simethicone",
+        "glyceryl stearate",
+        "PEG-30 stearate",
+        "sorbic acid"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetearyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": []
+      },
+      "labelClaims": [
+        "cream_texture",
+        "dry_skin",
+        "fragrance_free",
+        "non_comedogenic",
+        "sensitive_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    },
+    {
+      "id": "vanicream-396c107d46",
+      "brand": "Vanicream",
+      "name": "Vanicream™ Moisturizing Lotion",
+      "category": "moisturizer",
+      "texture": "rich",
+      "skinTypes": [
+        "dry"
+      ],
+      "skinTypeEvidence": {
+        "wording": "dry skin",
+        "source_selector": ".productInfo__content / Ideal for"
+      },
+      "highlights": [
+        "Labelled fragrance-free",
+        "Labelled non-comedogenic"
+      ],
+      "sensitive": true,
+      "source": "https://www.vanicream.com/product/vanicream-moisturizing-lotion",
+      "checked": "2026-10-31",
+      "sourceHash": "d37043277f0ba70faf1e53449dd800d7364778f392789d812698bbe0ae30391c",
+      "ingredients": [
+        "water",
+        "petrolatum",
+        "propylene glycol",
+        "cetearyl alcohol",
+        "sorbitol",
+        "ceteareth-20",
+        "simethicone",
+        "glyceryl stearate",
+        "PEG-30 stearate",
+        "sorbic acid",
+        "BHT"
+      ],
+      "ingredientFamilies": {
+        "niacinamide": [],
+        "hyaluronic_acid_family": [],
+        "fragrance_terms": [],
+        "denatured_or_ethanol": [],
+        "fatty_alcohols": [
+          "cetearyl alcohol"
+        ],
+        "retinoids": [],
+        "salicylic_acid": [],
+        "ceramides": [],
+        "glycerin": []
+      },
+      "labelClaims": [
+        "cream_texture",
+        "dry_skin",
+        "fragrance_free",
+        "non_comedogenic",
+        "sensitive_skin"
+      ],
+      "market": "US manufacturer reference",
+      "clinicalValidation": false
+    }
+  ]
+}

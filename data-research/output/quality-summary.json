@@ -1,0 +1,25 @@
+{
+  "product_records": 80,
+  "brands": {
+    "CeraVe": 15,
+    "Cetaphil": 31,
+    "Eucerin": 21,
+    "The Ordinary": 4,
+    "Vanicream": 9
+  },
+  "categories": {
+    "cleanser": 16,
+    "exfoliant": 1,
+    "moisturizer": 29,
+    "patch": 1,
+    "serum": 5,
+    "sunscreen": 26,
+    "wipes": 2
+  },
+  "complete_ingredient_sections": 80,
+  "basic_routine_records": 71,
+  "records_with_no_machine_quality_issues": 51,
+  "rejected_sources": 3,
+  "human_approved": 0,
+  "recommendation_ready": 0
+}
