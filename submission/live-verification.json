@@ -1,0 +1,86 @@
+{
+  "source": "youcam",
+  "createdAt": "2026-10-31T18:56:18.004Z",
+  "findings": [
+    {
+      "key": "moisture",
+      "rawScore": 52.73138880729675,
+      "uiScore": 71,
+      "hasMask": true
+    },
+    {
+      "key": "oiliness",
+      "rawScore": 47.37272644042969,
+      "uiScore": 66,
+      "hasMask": true
+    },
+    {
+      "key": "redness",
+      "rawScore": 80.98490142822266,
+      "uiScore": 81,
+      "hasMask": true
+    },
+    {
+      "key": "texture",
+      "rawScore": 71.9500720500946,
+      "uiScore": 77,
+      "hasMask": true
+    },
+    {
+      "key": "pore",
+      "rawScore": 77.08155262470245,
+      "uiScore": 79,
+      "hasMask": true
+    },
+    {
+      "key": "acne",
+      "rawScore": 75.61843999999999,
+      "uiScore": 79,
+      "hasMask": true
+    }
+  ],
+  "submissions": 1,
+  "masks": [
+    {
+      "key": "moisture",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "key": "oiliness",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "key": "redness",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "key": "texture",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "key": "pore",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "key": "acne",
+      "status": 200,
+      "contentType": "image/png"
+    }
+  ],
+  "catalogueProductCount": 30,
+  "sourceRecords": 80,
+  "productionStateCheck": {
+    "concurrentSessions": 4,
+    "allCookieRoundTripsRetained": true,
+    "providerTasksCreated": 0
+  },
+  "profileScenarios": 240,
+  "unitTests": 12,
+  "clinicalValidation": false,
+  "meaning": "Fictional-portrait software integration and label-filter checks; not clinical effectiveness or analysis-accuracy validation."
+}

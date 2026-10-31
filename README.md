@@ -6,6 +6,8 @@ This prototype does not diagnose skin conditions, prescribe treatment or claim c
 
 ## Try it
 
+Live app: [skin-ai-daily-edit.vercel.app](https://skin-ai-daily-edit.vercel.app) · [Devpost draft](https://devpost.com/software/skin-ai-your-daily-edit)
+
 Choose **Explore an example** for a free walkthrough. The fictional adult portrait and sample scores are explicitly labelled. The starter profile is dry skin with reported sensitivity; edit it to see label and ingredient filters change the options. The example works without a YouCam key or database.
 
 For live analysis, answer the profile, choose a photo (or **Use the fictional demo photo**), confirm permission and provider consent, then choose **Understand my skin**. Live analysis is enabled only after deployment credentials and private state are configured. Its six standard-definition observations use about 12 provider units per submitted analysis. Availability depends on the owner's remaining demo allowance.
@@ -51,7 +53,7 @@ Vercel runs the Next.js app with a connected **private Vercel Blob** store. A st
 
 The private state contains opaque session/task IDs, scores, task status and allowance counters. It contains no photo or profile answers. Sessions become inaccessible after 30 minutes. Expired records are pruned by subsequent state mutations or the daily cleanup. Clearing a finished session removes its result; the session allowance counter remains until expiry. Provider files follow the provider's own policy; clearing this app does not delete them.
 
-Conditional writes with ETags protect task ownership and the shared reservation cap across workers. Default cap: 20 globally and 3 per session. Reservations are retained after uncertain submissions to avoid accidentally spending twice. Restarting or redeploying does not reset the hosted cap. This is a bounded hackathon demo, not a production abuse-prevention service; public visitors can exhaust its allowance. Resetting the private state or rotating the signing secret is an owner operation, not a client feature.
+Consistent body reads are bracketed by metadata reads; conditional writes use the control-plane ETag rather than a delivery-cache ETag. Conditional writes with ETags protect task ownership and the shared reservation cap across workers. Default cap: 20 globally and 3 per session. Reservations are retained after uncertain submissions to avoid accidentally spending twice. Restarting or redeploying does not reset the hosted cap. This is a bounded hackathon demo, not a production abuse-prevention service; public visitors can exhaust its allowance. Resetting the private state or rotating the signing secret is an owner operation, not a client feature.
 
 Local development uses process memory unless a private backend is explicitly configured. Local sessions do not survive a process restart. Do not expose the development server publicly.
 
