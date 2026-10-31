@@ -1,5 +1,5 @@
 import { createCipheriv, createDecipheriv, createHash, randomBytes } from 'node:crypto';
-import { get, put, BlobPreconditionFailedError } from '@vercel/blob';
+import { get, head, put, BlobPreconditionFailedError, BlobNotFoundError } from '@vercel/blob';
 import type { Analysis } from './domain';
 
 export type SessionData = { expires: number; count: number; busy: boolean; submissionId?: string; taskId?: string; taskStarted?: number; pollAt?: number; analysis?: Analysis; taskError?: string };
@@ -31,18 +31,28 @@ function unseal(text: string): StoredState {
 }
 const blobBackend: StateBackend = {
   async read() {
-    const result = await get(pathname, { access: 'private', useCache: false, abortSignal: AbortSignal.timeout(10_000) });
-    if (!result) return { state: emptyState(), version: null };
-    if (result.statusCode !== 200 || result.blob.size > 5_000_000) throw new Error('State unavailable.');
-    if (!result.blob.etag) throw new Error('The private state response has no version.');
-    return { state: unseal(await new Response(result.stream).text()), version: result.blob.etag };
+    // Use the control-plane version for conditional writes, not a delivery ETag.
+    // Bracket the uncached body read with metadata reads so a concurrent update
+    // cannot pair one version's payload with another version's write condition.
+    for (let attempt=0;attempt<4;attempt++) {
+      let before;
+      try { before=await head(pathname,{abortSignal:AbortSignal.timeout(10_000)}); }
+      catch(error) { if(error instanceof BlobNotFoundError)return {state:emptyState(),version:null};throw error; }
+      const result=await get(pathname,{access:'private',useCache:false,headers:{'Accept-Encoding':'identity','X-Skin-Read':randomBytes(8).toString('hex')},abortSignal:AbortSignal.timeout(10_000)});
+      if(!result)continue;
+      if(result.statusCode!==200 || result.blob.size>5_000_000)throw new Error('State unavailable.');
+      const text=await new Response(result.stream).text();
+      const after=await head(pathname,{abortSignal:AbortSignal.timeout(10_000)});
+      if(before.etag && before.etag===after.etag)return {state:unseal(text),version:after.etag};
+    }
+    throw new Error('Private state changed during reading.');
   },
   async write(value, version) {
     try {
       await put(pathname, seal(value), { access: 'private', addRandomSuffix: false, contentType: 'application/json', cacheControlMaxAge: 60, ...(version ? { ifMatch: version, allowOverwrite: true } : { allowOverwrite: false }), abortSignal: AbortSignal.timeout(10_000) });
       return true;
     } catch (error) {
-      if (error instanceof BlobPreconditionFailedError || error instanceof Error && /already exists/.test(error.message)) return false;
+      if (error instanceof BlobPreconditionFailedError || error instanceof Error && /already exists/.test(error.message)) { console.warn('Private state write conflict',{operation:version?'conditional-update':'create',errorName:error instanceof Error?error.name:'Unknown',message:error instanceof Error?error.message.replace(/https?:\/\/\S+/g,'[url]'):'Conflict'});return false; }
       throw error;
     }
   },
