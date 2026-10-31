@@ -34,11 +34,12 @@ const blobBackend: StateBackend = {
     const result = await get(pathname, { access: 'private', useCache: false, abortSignal: AbortSignal.timeout(10_000) });
     if (!result) return { state: emptyState(), version: null };
     if (result.statusCode !== 200 || result.blob.size > 5_000_000) throw new Error('State unavailable.');
+    if (!result.blob.etag) throw new Error('The private state response has no version.');
     return { state: unseal(await new Response(result.stream).text()), version: result.blob.etag };
   },
   async write(value, version) {
     try {
-      await put(pathname, seal(value), { access: 'private', addRandomSuffix: false, contentType: 'application/json', cacheControlMaxAge: 0, ...(version ? { ifMatch: version } : { allowOverwrite: false }), abortSignal: AbortSignal.timeout(10_000) });
+      await put(pathname, seal(value), { access: 'private', addRandomSuffix: false, contentType: 'application/json', cacheControlMaxAge: 60, ...(version ? { ifMatch: version, allowOverwrite: true } : { allowOverwrite: false }), abortSignal: AbortSignal.timeout(10_000) });
       return true;
     } catch (error) {
       if (error instanceof BlobPreconditionFailedError || error instanceof Error && /already exists/.test(error.message)) return false;
