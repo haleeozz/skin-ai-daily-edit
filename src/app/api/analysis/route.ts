@@ -16,6 +16,7 @@ export async function POST(request: Request) {
     try {
       const input = sharp(bytes, { limitInputPixels: 25_000_000, animated: false });
       const meta = await input.metadata();
+      if (!['jpeg', 'png', 'webp'].includes(meta.format || '')) throw new Error('unsupported image format');
       if (!meta.width || !meta.height || Math.min(meta.width, meta.height) < 480 || (meta.pages ?? 1) > 1) throw new Error('dimensions');
       normalized = await input.rotate().resize({ width: 1600, height: 1600, fit: 'inside', withoutEnlargement: true }).jpeg({ quality: 90 }).toBuffer();
       const resized = await sharp(normalized).metadata();

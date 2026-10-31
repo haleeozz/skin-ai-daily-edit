@@ -59,6 +59,7 @@ export function sameOrigin(request: Request) {
 export function liveEnabled() { return process.env.ENABLE_LIVE_ANALYSIS === 'true' && !!process.env.YOUCAM_API_KEY && (process.env.NODE_ENV !== 'production' || durableConfigured()); }
 export function safeError(error: unknown) {
   const known = error instanceof AppError;
+  if (!known) console.error('Skin AI request failure', { name: error instanceof Error ? error.name : 'UnknownError', message: error instanceof Error ? error.message.replace(/https?:\/\/\S+/g, '[url]').replace(/(?:Bearer\s+|token[=:]\s*)\S+/gi, '[credential]') : 'Unexpected failure' });
   return Response.json({ error: known ? error.message : 'The request could not be completed. Please try again.' }, { status: known ? error.status : 500, headers: { 'Cache-Control': 'no-store' } });
 }
 export async function readLimited(request: Request, max: number) {
