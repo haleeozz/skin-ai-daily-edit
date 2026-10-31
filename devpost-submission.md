@@ -1,10 +1,10 @@
 # Skin AI — Your Daily Edit
 
-Status: draft only. Not submitted to the hackathon.
+Status: Submitted to the YouCam hackathon. Submission ID: 1275923. Confirmed by project read-back.
 
 Tagline: Understand the photo. Check the label. Keep the essentials.
 
-Project draft: https://devpost.com/software/skin-ai-your-daily-edit
+Project: https://devpost.com/software/skin-ai-your-daily-edit
 
 ## Inspiration
 A skin score is easy to display. Explaining what a person can reasonably do with it is harder. Skin AI is for adults who want a manageable basic routine and clear reasons, without an endless shelf of products or a shopping funnel.
@@ -51,5 +51,5 @@ Code and setup instructions: https://github.com/haleeozz/skin-ai-daily-edit
 - Video: submission/video/skin-ai-demo.mp4, 109 seconds, ElevenLabs Megan narration and speech-synchronized captions.
 - Four screenshot files: submission/screenshots/.
 - Hosted real-task verification: one submission, six observations, six decoded maps; ingredient editing used no additional task.
-- Complete the official custom answers from the local private preparation file.
+- Official custom answers completed and submitted.
 
