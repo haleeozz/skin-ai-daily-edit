@@ -7,7 +7,7 @@
 
 ## Video
 
-The locally rendered `video/skin-ai-demo.mp4` is approximately 129 seconds, 1920×1080, with English narration and captions. Binary video files are excluded from Git. The public YouTube/Vimeo URL still needs to be added to the Devpost draft.
+The locally rendered `video/skin-ai-demo.mp4` is approximately 129 seconds, 1920×1080, with English narration and captions. Binary video files are excluded from Git. The final revised video is public at https://www.youtube.com/watch?v=K7wqBQ6sKkY.
 
 The footage records one actual YouCam task using a fictional AI-generated adult portrait. Processing wait is shortened and labelled. Third-party product names are hidden in the recording; actual label records and filters are unchanged. Source provenance remains visible. This is an integration demonstration, not clinical validation.
 
@@ -42,4 +42,4 @@ The latest local revision is `video/skin-ai-demo-megan.mp4`: approximately 1 min
 
 The revision uses short spoken subtitles instead of the earlier static caption band, a restrained frame, chapter labels and a closing card. Word times were extracted locally and matched to the exact approved script; no paid transcription or new YouCam task was used. The generated voice cost 1,719 ElevenLabs credits.
 
-This revision has not been uploaded or submitted. Review it before choosing the final public video URL. Windows editing helpers: `align-demo-audio.py`, `prepare-megan-edit.py`, and `render-megan-demo.mjs`. Their binary audio, model cache and fonts stay in ignored local folders.
+The owner published this revised video: https://www.youtube.com/watch?v=K7wqBQ6sKkY. Hackathon submission is being finalized. Windows editing helpers: `align-demo-audio.py`, `prepare-megan-edit.py`, and `render-megan-demo.mjs`. Their binary audio, model cache and fonts stay in ignored local folders.

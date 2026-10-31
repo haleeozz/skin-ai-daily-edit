@@ -46,9 +46,9 @@ Code and setup instructions: https://github.com/haleeozz/skin-ai-daily-edit
 
 ## Final delivery checks
 
-- Public video URL: pending upload to YouTube, Vimeo or Youku.
-- Final rule and eligibility agreement: awaiting owner confirmation.
-- Video: submission/video/skin-ai-demo.mp4, 129 seconds, English narration and captions.
+- Public video URL: https://www.youtube.com/watch?v=K7wqBQ6sKkY
+- Final rule and eligibility agreement: confirmed by owner.
+- Video: submission/video/skin-ai-demo.mp4, 109 seconds, ElevenLabs Megan narration and speech-synchronized captions.
 - Four screenshot files: submission/screenshots/.
 - Hosted real-task verification: one submission, six observations, six decoded maps; ingredient editing used no additional task.
 - Complete the official custom answers from the local private preparation file.
