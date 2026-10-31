@@ -35,3 +35,11 @@ These screenshot captures inherit the recording-only product-name redaction. Ful
 ## Verification
 
 `live-verification.json` contains sanitized integration evidence without provider task identifiers, session cookies, credentials or signed image URLs. Unit and scenario checks validate software behavior, not clinical outcomes.
+
+## Revised narration and subtitles
+
+The latest local revision is `video/skin-ai-demo-megan.mp4`: approximately 1 minute 49 seconds, 1920×1080, with one ElevenLabs Megan narration. The earlier `skin-ai-demo.mp4` remains preserved.
+
+The revision uses short spoken subtitles instead of the earlier static caption band, a restrained frame, chapter labels and a closing card. Word times were extracted locally and matched to the exact approved script; no paid transcription or new YouCam task was used. The generated voice cost 1,719 ElevenLabs credits.
+
+This revision has not been uploaded or submitted. Review it before choosing the final public video URL. Windows editing helpers: `align-demo-audio.py`, `prepare-megan-edit.py`, and `render-megan-demo.mjs`. Their binary audio, model cache and fonts stay in ignored local folders.
